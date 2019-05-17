@@ -1,4 +1,4 @@
-# Object Oriented Development: SENG 350
+# Software Architecture and Design: SENG 350
 -------------------------
 
 ## Schedule and Topics
