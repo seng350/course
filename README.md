@@ -1,5 +1,6 @@
 # Software Architecture and Design: SENG 350
 -------------------------
+**DRAFT**
 
 ## Schedule and Topics
 
@@ -8,35 +9,32 @@ The following schedule is subject to change. All deadlines and due dates listed 
 | Module & Topics | Other Resources | Readings  | Deadlines |
 | --------------------------------------------------------- | --------- | ---------------- |------- |
 |  Intro; introductions; Project outlined. [What is Software Architecture](https://github.com/SENG480/course/blob/master/lectures/1-intro.md)? | | text chapter 1 | |
-| | [Software arch overview](https://github.com/SENG480/course/blob/master/lectures/2-arch.md). | | text chapter 2 | |
-|  Omar - Github/Git tutorial || |
-|   Group project meetings (in class) || |
-|  [Reading Code.](https://github.com/SENG480/course/blob/master/lectures/3-reading.md) | | chapter 3 text, source code of [web crawler]( https://github.com/aosabook/500lines/tree/master/crawler/code) | | 
+|  [Software arch overview](https://github.com/SENG480/course/blob/master/lectures/2-arch.md). | | text chapter 2 | |
+|  Github/Git tutorial || |
+|  [Reading Code.](https://github.com/SENG480/course/blob/master/lectures/3-reading.md) | | chapter 3 text, source code of TBD | | 
 |  [Architecture Stakeholders and Requirements](https://github.com/SENG480/course/blob/master/lectures/4-req.md). | | text chapter 16  |  |
+|  Midterm 1 | | | **Midterm** |
 | [Views on Architecture - Modules](https://github.com/SENG480/course/blob/master/lectures/5-modules.md) | | text chapter 18 |  |
 | [Views part 2 - C&C](https://github.com/SENG480/course/blob/master/lectures/6-cc.md) | [SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View) | text chapter 4 | | 
 | [Architecture and Design](https://github.com/SENG480/course/blob/master/lectures/7-design.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | text chapter 17  |  | |
 |  [Documenting behavior](https://github.com/SENG480/course/blob/master/lectures/8-behavior.md)  | | [SEI behavior tech report](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=5847) | || |
-|  Midterm | | | **Midterm** |
+|  Midterm  2 | | | **Midterm** |
 |   [API and Interface documentation](https://github.com/SENG480/course/blob/master/lectures/9-interfaces.md).  | | [Interface documentation](https://resources.sei.cmu.edu/asset_files/TechnicalNote/2002_004_001_13973.pdf) |   |
 | [Architecture analysis](https://github.com/SENG480/course/blob/master/lectures/12-analysis.md) | | ch 21  |
-|  [Documenting Ops](https://github.com/SENG480/course/blob/master/lectures/13-ops.md)  | | <!--RW text has chap 21 ; allocation views; Len's book -->  |  |
 |   [Technical Debt and Metrics](https://github.com/SENG480/course/blob/master/lectures/10-td.md) | | my [Field Study of TD](https://insights.sei.cmu.edu/sei_blog/2015/07/a-field-study-of-technical-debt.html) • [metrics and TD](https://almossawi.com/firefox/prose-part-two/) | |
-|  Midterm | | | **Midterm** |
-|  [Evaluating Docs](https://github.com/SENG480/course/blob/master/lectures/11-review.md) | | [Guidelines for AD reviews](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1285&context=sei)  | | | 
-|  [Microservice styles; the latest research](https://github.com/SENG480/course/blob/master/lectures/14-new.md) | | |  |
+|  Midterm 3 | | | **Midterm** |
 
-# Preambular
+## Preambular
 *Calendar Entry*: An introduction to analysis and design of software architectures with architecture description languages and their subsequent synthesis at the program level. Topics include requirements analysis, analysis and design of static and dynamic view points of architectures and model driven engineering. Architectural styles and tactics are introduced and applied as solutions to recurring design problems. Students are familiarized with component reuse, event-driven programming and computer-aided software engineering tools. The course includes a major design project.
 
 (the official course syllabus is [distributed via HEAT](https://heat.csc.uvic.ca/coview/outline/2019/Fall/SENG/350?unp=t))
 
-Past versions:
+### Past versions:
 
 * 
 
 ## Instructors
-* [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours 11:30-12:30 Tuesdays, or by appt.
+* [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours TBA, or by appt.
 
 Please use Slack to message the TAs first.
 
@@ -52,7 +50,6 @@ We use the SEI text as a framework for understanding large-scale software system
 * architecture-driven design
 * agile architecture
 * design, architecture, and technical debt
-
 
 After the course, students are able to:
 
@@ -81,9 +78,9 @@ University and department policies on professional conduct and integrity are app
 ## Marking Overview
 The final mark is weighted as following:
 - 1% assignment, 
-- 40% midterms
+- 60% midterms,
 - 9% participation,
-- 40% substantial group project
+- 30% substantial group project
 
 ### Assignments
 One individual assignment worth 1%.
@@ -92,25 +89,28 @@ One individual assignment worth 1%.
 9%, based on class attendance, project participation, and activity in Github and Slack.
 
 ### Project
-One group project, 40% of the mark. Group project marks are scaled according to individual performance. This is assessed by instructor observation and peer evaluation.
+One group project, 30% of the mark. Group project marks are scaled according to individual performance. This is assessed by instructor observation and peer evaluation.
 
 ### Midterms
-Oct 5th, 20% of final grade. Missing midterm makes the final worth 50%.
-Nov 10, 20% of final grade.
+early Oct, 20% of final grade.
+late Oct/early Nov, 20% of final grade.
+late Nov, 20% of final grade.
+
+Missing a midterm reweights the other midterms to 30%. 
 
 ### Final
 There is no final.
 
-### Resources
+## Resources
 
 1. [Slack](https://seng330uvic.slack.com)
 2. [Github help pages](https://help.github.com)
 3. [Github bootcamp](https://help.github.com/articles/set-up-git/)
 
-#### Books
+### Books
 * SEI Software Architecture in Practice, Len Bass, Paul Clements, Rick Kazman. 3rd Edition. 2013.
 
-#### Other texts
+### Other texts
 * Design It! From Programmer to Software Architect, by Michael Keeling, Pragmatic Programmers 2017.
 * Just Enough Software Architecture, by George Fairbanks, Marshall and Brainerd, 2010.
 * Documenting Software Architectures, by Paul Clements et al., Addison-Wesley, 2011.
