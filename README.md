@@ -6,23 +6,54 @@
 
 The following schedule is subject to change. All deadlines and due dates listed here are the official dates. 
 
-| Module & Topics | Other Resources | Readings  | Deadlines |
-| --------------------------------------------------------- | --------- | ---------------- |------- |
-|  Intro; introductions; Project outlined. [What is Software Architecture](https://github.com/SENG480/course/blob/master/lectures/1-intro.md)? | | text chapter 1 | |
-|  [Software arch overview](https://github.com/SENG480/course/blob/master/lectures/2-arch.md). | | text chapter 2 | |
-|  Github/Git tutorial || |
-|  [Reading Code.](https://github.com/SENG480/course/blob/master/lectures/3-reading.md) | | chapter 3 text, source code of TBD | | 
-|  [Architecture Stakeholders and Requirements](https://github.com/SENG480/course/blob/master/lectures/4-req.md). | | text chapter 16  |  |
-|  Midterm 1 | | | **Midterm** |
-| [Views on Architecture - Modules](https://github.com/SENG480/course/blob/master/lectures/5-modules.md) | | text chapter 18 |  |
-| [Views part 2 - C&C](https://github.com/SENG480/course/blob/master/lectures/6-cc.md) | [SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View) | text chapter 4 | | 
-| [Architecture and Design](https://github.com/SENG480/course/blob/master/lectures/7-design.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | text chapter 17  |  | |
-|  [Documenting behavior](https://github.com/SENG480/course/blob/master/lectures/8-behavior.md)  | | [SEI behavior tech report](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=5847) | || |
-|  Midterm  2 | | | **Midterm** |
-|   [API and Interface documentation](https://github.com/SENG480/course/blob/master/lectures/9-interfaces.md).  | | [Interface documentation](https://resources.sei.cmu.edu/asset_files/TechnicalNote/2002_004_001_13973.pdf) |   |
-| [Architecture analysis](https://github.com/SENG480/course/blob/master/lectures/12-analysis.md) | | ch 21  |
-|   [Technical Debt and Metrics](https://github.com/SENG480/course/blob/master/lectures/10-td.md) | | my [Field Study of TD](https://insights.sei.cmu.edu/sei_blog/2015/07/a-field-study-of-technical-debt.html) • [metrics and TD](https://almossawi.com/firefox/prose-part-two/) | |
-|  Midterm 3 | | | **Midterm** |
+This semester I'm doing the schedule differently. Instead of detailed day by day schedules, I'll list the main modules, the slides, and then key dates. Modules are sequential, and I aim to do one module per week. If you miss a class, I assume you can figure out what you missed. If not, see your classmates. 
+
+Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard MR/TWF schedule). Class is in Cornett A221. Labs are in ELW B238.
+
+### Modules
+
+| Module | Topics | Other Resources | Readings  | 
+|---| --------------------------------------------------------- | --------- | ----------------|
+| 1 |   [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) | | text chapter 1  |
+| 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | | text chapter 2 ; [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/)| 
+| 3 |  TBD | | chapter 3 text, source code of TBD | 
+| 4 |  [Architecture Stakeholders and Requirements](https://github.com/SENG350/course/blob/master/lectures/4-req.md). | | text chapter 16  | 
+| 5 | [Views on Architecture - Modules](https://github.com/SENG350/course/blob/master/lectures/5-modules.md) | | text chapter 18 | 
+| 6 | [Views part 2 - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) | [SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View) | text chapter 4 | 
+| 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | text chapter 17  |  |
+| 8 |  [Documenting behavior](https://github.com/SENG350/course/blob/master/lectures/8-behavior.md)  | | [SEI behavior tech report](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=5847) | || 
+| 9 |   [API and Interface documentation](https://github.com/SENG350/course/blob/master/lectures/9-interfaces.md).  | | [Interface documentation](https://resources.sei.cmu.edu/asset_files/TechnicalNote/2002_004_001_13973.pdf) |   
+| 10  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
+| 11 |   [Technical Debt and Metrics](https://github.com/SENG350/course/blob/master/lectures/10-td.md) | | my [Field Study of TD](https://insights.sei.cmu.edu/sei_blog/2015/07/a-field-study-of-technical-debt.html) • [metrics and TD](https://almossawi.com/firefox/prose-part-two/) | 
+
+
+### Key Dates
+| Event | Deadline |
+|-----|-----|
+| Project: M0 | September 10 |
+| Project: M1 | September 24 | 
+| Project: M2 | Oct 5 |
+|  Midterm 1  (M1-3) | **Oct 14** |
+| Project M3| Oct 21 |
+| Reading Break | Nov 11-13 (no class) |
+|  Midterm  2 (M4-7) | **Nov 1** |
+| Project M3.5 | Nov 15 |
+|  Midterm 3 (M8-11) | **Nov 28** |
+| Project M4/5 demos and code reviews | Dec 2-5 |
+| Last class | Dec 4 | 
+| Project: M6 | Dec 11 |
+
+### Lab Schedule
+| Week | Topic |
+|-----|-----|
+|  1 | no labs |
+| 2 | Typescript |
+| | Docker |
+| | Express | 
+| | DockerHub and Travis | 
+| | MVC | 
+
+
 
 ## Preambular
 *Calendar Entry*: An introduction to analysis and design of software architectures with architecture description languages and their subsequent synthesis at the program level. Topics include requirements analysis, analysis and design of static and dynamic view points of architectures and model driven engineering. Architectural styles and tactics are introduced and applied as solutions to recurring design problems. Students are familiarized with component reuse, event-driven programming and computer-aided software engineering tools. The course includes a major design project.
@@ -69,7 +100,7 @@ Software design is a naturally abstract topic that needs to be applied to make a
 ## Deliverables
 The class will use [Github](https://github.com/SENG350) and [Slack](https://join.slack.com/t/seng350uvic/signup). Students will have to register their Github username (either a permanent one or a throwaway) with the instructors. Those with an objection to using Github or Slack, please contact the instructor for workarounds. All Github activity is private to the class organization. Please see the privacy notice on the Connex site.
 
-[Slack](https://seng350-f17.slack.com) will be the primary mechanism used for communication in the class. My rationale (apart from being tools used in practice) is to expose the class as a whole to questions about assignment and lectures. 
+[Slack](https://seng350.slack.com) will be the primary mechanism used for communication in the class. My rationale (apart from being tools used in practice) is to expose the class as a whole to questions about assignment and lectures.  Please use the `general_2019` channel for discussion, as this Slack gets re-used year to year.
 
 Grades are distributed via Connex for privacy compliance.
 
@@ -86,7 +117,7 @@ The final mark is weighted as following:
 One individual assignment worth 1%.
 
 ### Participation
-9%, based on class attendance, project participation, and activity in Github and Slack.
+9%, based on class attendance, lab attendance, project participation, and activity in Github and Slack.
 
 ### Project
 One group project, 30% of the mark. Group project marks are scaled according to individual performance. This is assessed by instructor observation and peer evaluation.
@@ -96,7 +127,7 @@ early Oct, 20% of final grade.
 late Oct/early Nov, 20% of final grade.
 late Nov, 20% of final grade.
 
-Missing a midterm reweights the other midterms to 30%. 
+Missing a midterm reweights the other midterms to 30%. Midterms are cumulative but focus on the most recent material.
 
 ### Final
 There is no final.

@@ -1,0 +1,6 @@
+*.pdf
+*.iml
+.ipynb_checkpoints
+.idea
+*.numbers
+*.xlsx
