@@ -1,0 +1,1 @@
+{"diagram":"ClassDiagram","nodes":[{"methods":"+ Card get()","x":209,"name":"Card","y":214,"attributes":"-aRank:Rank\n-aSuit:Suit","id":0,"type":"ClassNode"}],"edges":[],"version":"2.2"}
