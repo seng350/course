@@ -4,10 +4,10 @@ Author: Neil Ernst
 ---
 
 # Overview
-The course project is a semester long effort to apply the ideas behind code reading and communication to a realistic project.
+The course project is a semester long effort to design and implement a web application using Typescript as the programming language, Node.js as the server, and Express as middleware. While the world is <strike>cursed</strike>blessed with a plethora of Javascript web frameworks, in this course we will implement those concepts (i.e, MVC or some iteration thereof) ourselves.
 
 ## Dates
-See [the syllabus for all due dates](). 
+See [the syllabus for all due dates](README.md). 
 
 ## Milestones
 
@@ -35,7 +35,7 @@ All students are expected to participate equally in discussions, design and deve
 # Formats and Logistics
 We will be using CI with Travis and Github. Table stakes for project marking is evidence that CI pipelines are being used and used effectively. Testing your code is mandatory, and tests should be relevant, informative, and passing.
 
-Deploy your code using DockerHub and containers. We will mark by pulling the latest from DockerHub. 
+Deploy your code as a Docker container. We will mark by pulling the latest from DockerHub (tentative). 
 
 # Milestones
 
@@ -82,8 +82,36 @@ Describe, in <5 pages, how you intend to solve the problem and implement the ASR
 - Code compiles (no marks otherswise)
 - BetterCodeHub score > 8
 - Test coverage and quality is good
-- Con
+- Container accessible
 
+## 3.5. Code iteration 2
+This is a checkin milestone, to ensure code is being written.
+
+### Deliverables
+1. Commit latest, working code to Github tagged "sprint1"
+2. BetterCodeHub report
+3. Passing Travis builds.
+4. Code coverage report.
+
+### Marking Guide
+- Code compiles (no marks otherswise)
+- BetterCodeHub score > 8
+- Test coverage and quality is good
+- Container accessible
+
+## 4. Code iteration 3
+
+### Deliverables
+1. Commit final, working code to Github tagged "sprint1"
+2. BetterCodeHub report
+3. Passing Travis builds.
+4. Code coverage report.
+
+### Marking Guide
+- Code compiles (no marks otherswise)
+- BetterCodeHub score > 8
+- Test coverage and quality is good
+- Container accessible
 
 ## 5. Final Demo 
 During the last week of class, schedule some time with me and the TAs to show your final project, and walk us through the code/design.
