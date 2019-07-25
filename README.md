@@ -30,13 +30,14 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 ### Key Dates
 | Event | Deadline |
 |-----|-----|
-| Project: M0 | September 10 |
-| Project: M1 | September 24 | 
-| Project: M2 | Oct 5 |
-|  Midterm 1  (M1-3) | **Oct 14** |
-| Project M3| Oct 21 |
+| Project: M0 | September 13 |
+| Project: M1 | September 25 | 
+| Project: M2 | Oct 4 |
+|  Thanksgiving Day | **Oct 14** |
+|  Midterm 1  (M1-3) | **Oct 16** |
+| Project M3| Oct 25 |
 | Reading Break | Nov 11-13 (no class) |
-|  Midterm  2 (M4-7) | **Nov 1** |
+|  Midterm  2 (M4-7) | **Oct 31** |
 | Project M3.5 | Nov 15 |
 |  Midterm 3 (M8-11) | **Nov 28** |
 | Project M4/5 demos and code reviews | Dec 2-5 |
