@@ -125,13 +125,13 @@ Presentation must be attended by all group members, all of whom may be asked que
 ### Marking Guide
 
 ## 6. Post-mortem
-During the last week of class, schedule some time with me and the TAs to show your final project, and walk us through the code/design.
+After class and the project are done, create a group retrospective document as a Markdown file called `retro.md`. It should reflect on what you learned, what you could do better, and how your design can be improved. 
 
 ### Other aspects to keep in mind
 
 
 ### Deliverables
-Presentation must be attended by all group members, all of whom may be asked questions about the project.
+
 
 ### Marking Guide
 
