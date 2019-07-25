@@ -138,5 +138,4 @@ Presentation must be attended by all group members, all of whom may be asked que
 
 # Helpful Links
 * [Student's Guide to SE projects](http://www.cdf.toronto.edu/~csc301h/fall/csc301.pdf) 
-* [Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [GWT](http://www.gwtproject.org/doc/latest/tutorial/index.html)
+* See [lab page](labs.md) for details on the technology. 
