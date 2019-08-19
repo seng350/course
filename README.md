@@ -109,16 +109,12 @@ University and department policies on professional conduct and integrity are app
 
 ## Marking Overview
 The final mark is weighted as following:
-- 1% assignment, 
 - 60% midterms,
-- 9% participation,
+- 10% participation,
 - 30% substantial group project
 
-### Assignments
-One individual assignment worth 1%.
-
 ### Participation
-9%, based on class attendance, lab attendance, project participation, and activity in Github and Slack.
+10%, based on class attendance, lab attendance, project participation, and activity in Github and Slack.
 
 ### Project
 One group project, 30% of the mark. Group project marks are scaled according to individual performance. This is assessed by instructor observation and peer evaluation.
@@ -128,7 +124,7 @@ early Oct, 20% of final grade.
 late Oct/early Nov, 20% of final grade.
 late Nov, 20% of final grade.
 
-Missing a midterm reweights the other midterms to 30%. Midterms are cumulative but focus on the most recent material.
+Missing a midterm reweights the other midterms to 30% each. Midterms are cumulative but focus on the most recent material.
 
 ### Final
 There is no final.
