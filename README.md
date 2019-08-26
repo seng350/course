@@ -114,17 +114,17 @@ The final mark is weighted as following:
 - 30% substantial group project
 
 ### Participation
-10%, based on class attendance, lab attendance, project participation, and activity in Github and Slack.
+10%, based on class attendance, lab attendance, and activity in Github and Slack. Project participation marks are marked separately and over/under-weight your group's mark.
 
 ### Project
-One group project, 30% of the mark. Group project marks are scaled according to individual performance. This is assessed by instructor observation and peer evaluation.
+One group project, 45% of the mark. Group project marks are scaled according to individual performance. This is assessed by instructor observation and peer evaluation.
 
 ### Midterms
-early Oct, 20% of final grade.
-late Oct/early Nov, 20% of final grade.
-late Nov, 20% of final grade.
+early Oct, 15% of final grade.
+late Oct/early Nov, 15% of final grade.
+late Nov, 15% of final grade.
 
-Missing a midterm reweights the other midterms to 30% each. Midterms are cumulative but focus on the most recent material.
+Missing a midterm reweights the other midterms accordingly. Midterms are cumulative but focus on the most recent material.
 
 ### Final
 There is no final.
