@@ -16,15 +16,12 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 |---| --------------------------------------------------------- | --------- | ----------------|
 | 1 |   [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) | | text chapter 1  |
 | 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | | text chapter 2 ; [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/)| 
-| 3 |  TBD | | chapter 3 text, source code of TBD | 
-| 4 |  [Architecture Stakeholders and Requirements](https://github.com/SENG350/course/blob/master/lectures/4-req.md). | | text chapter 16  | 
+|3 |  [Architecture Stakeholders and Quality Attributes](https://github.com/SENG350/course/blob/master/lectures/4-req.md). | | text chapter 16  | 
+|4 | [Architecture Tactics]() | | text chapter 13, quality attribute chapters 5,7,8,9 | 
 | 5 | [Views on Architecture - Modules](https://github.com/SENG350/course/blob/master/lectures/5-modules.md) | | text chapter 18 | 
-| 6 | [Views part 2 - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) | [SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View) | text chapter 4 | 
-| 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | text chapter 17  |  |
-| 8 |  [Documenting behavior](https://github.com/SENG350/course/blob/master/lectures/8-behavior.md)  | | [SEI behavior tech report](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=5847) | || 
-| 9 |   [API and Interface documentation](https://github.com/SENG350/course/blob/master/lectures/9-interfaces.md).  | | [Interface documentation](https://resources.sei.cmu.edu/asset_files/TechnicalNote/2002_004_001_13973.pdf) |   
-| 10  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
-| 11 |   [Technical Debt and Metrics](https://github.com/SENG350/course/blob/master/lectures/10-td.md) | | my [Field Study of TD](https://insights.sei.cmu.edu/sei_blog/2015/07/a-field-study-of-technical-debt.html) • [metrics and TD](https://almossawi.com/firefox/prose-part-two/) | 
+| 6 | [Views on Architecture - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) | [SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View) | text chapter 4 | 
+| 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | text chapter 17  | 
+| 8  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
 
 ### Key Dates
@@ -32,29 +29,23 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 |-----|-----|
 | Project: M0 | September 13 |
 | Project: M1 | September 25 | 
+| Quiz 1 | | 
 | Project: M2 | Oct 4 |
 |  Thanksgiving Day | **Oct 14** |
-|  Midterm 1  (M1-3) | **Oct 16** |
+|  Quiz 2 |  |
 | Project M3| Oct 25 |
+|  Midterm  | **Oct 31** |
 | Reading Break | Nov 11-13 (no class) |
-|  Midterm  2 (M4-7) | **Oct 31** |
+|  Quiz 3  | |
 | Project M3.5 | Nov 15 |
-|  Midterm 3 (M8-11) | **Nov 28** |
+|  Quiz 4  | |
+|  Quiz 5 | **Nov 28** |
 | Project M4/5 demos and code reviews | Dec 2-5 |
 | Last class | Dec 4 | 
 | Project: M6 | Dec 11 |
 
 ### Lab Schedule
-| Week | Topic |
-|-----|-----|
-|  1 | no labs |
-| 2 | Typescript |
-| | Docker |
-| | Express | 
-| | DockerHub and Travis | 
-| | MVC | 
-
-
+* [Lab schedule](labs.md)
 
 ## Preambular
 *Calendar Entry*: An introduction to analysis and design of software architectures with architecture description languages and their subsequent synthesis at the program level. Topics include requirements analysis, analysis and design of static and dynamic view points of architectures and model driven engineering. Architectural styles and tactics are introduced and applied as solutions to recurring design problems. Students are familiarized with component reuse, event-driven programming and computer-aided software engineering tools. The course includes a major design project.
@@ -63,7 +54,7 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 
 ### Past versions:
 
-* 
+* somewhere in the vast abyss of unrecoverable knowledge that is Connex/Coursespaces
 
 ## Instructors
 * [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours TBA, or by appt.
@@ -109,22 +100,23 @@ University and department policies on professional conduct and integrity are app
 
 ## Marking Overview
 The final mark is weighted as following:
-- 60% midterms,
+- 25% midterm,
 - 10% participation,
-- 30% substantial group project
+- 10% quizzes
+- 55% substantial group project
 
 ### Participation
 10%, based on class attendance, lab attendance, and activity in Github and Slack. Project participation marks are marked separately and over/under-weight your group's mark.
 
 ### Project
-One group project, 45% of the mark. Group project marks are scaled according to individual performance. This is assessed by instructor observation and peer evaluation.
+One group project, 55% of the mark. Group project marks are scaled according to individual performance. This is assessed by instructor observation and peer evaluation.
 
 ### Midterms
-early Oct, 15% of final grade.
-late Oct/early Nov, 15% of final grade.
-late Nov, 15% of final grade.
+Oct 31, 25% (tentative)
 
-Missing a midterm reweights the other midterms accordingly. Midterms are cumulative but focus on the most recent material.
+You must pass both the midterm and project to pass the course.
+### Quizzes
+5 short inclass quizzes will be used to gauge understanding of the material.
 
 ### Final
 There is no final.
