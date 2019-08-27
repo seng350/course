@@ -6,6 +6,30 @@ Author: Neil Ernst
 # Overview
 The course project is a semester long effort to design and implement a web application using Typescript as the programming language, Node.js as the server, and Express as middleware. While the world is <strike>cursed</strike>blessed with a plethora of Javascript web frameworks, in this course we will implement those concepts (i.e, MVC or some iteration thereof) ourselves.
 
+There is no specified topic for the project. Your team will define the requirements and stakeholders as part of the deliverables, and then implement those requirements. I suggest focusing on an app that has some CRUD-style interaction (Create, Read, Update, Delete). Typically this is a standard intro to web development, e.g. Spring [PetClinic](https://github.com/spring-projects/spring-petclinic) or Node [Library](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website) examples.
+
+Some examples:
+- manage gaming identities on Xbox, Playstation, etc.
+- keep track of a sports pool
+- list of user weather stations
+
+## Detailed Requirements
+
+The following list contains a set of requirements for your course project. They are purposefully not written as a formal software requirements specification, as your first task will be to create and formalize such a specification. If you are unclear about anything here, please post your question to Slack.
+
+1. The app shall be Web-based and use the technologies introduced in the labs, in particular TypeScript, Node, Express, MongoDB.
+2. The app shall not use view templates (like Jade) or CSS templates (like JADE). Do this by hand.
+3. The app shall not use ORM tools such as Mongoose.
+4. The app shall not use MVC frameworks. 
+4. For other libraries or APIs, check with your lab TA.
+2. The app shall support different user IDs, each user ID should be able to create (update and delete) different aspects of your app. 
+    1. Note: to keep the complexity of the project in check, you will not have to implement user authentication. The app should simply have a “user ID list” view that shows all known user IDs and allows the user to select one of them. 
+    2. The app should support a special user ID “admin”. This user ID cannot be deleted and has the special ability to create or delete other (regular) user IDs.
+3. Users can invite other users to *view* or *edit* their projects. However, only the project *owner* can delete a project. Users can surrender project ownership to another user.
+4. The app user interface should provide a structured, forms-based interface for entering and updating content. 
+5. The app shall provide an overview page.
+6. The app shall follow web accessibility practices as defined by 
+
 ## Dates
 See [the syllabus for all due dates](README.md). 
 
@@ -21,9 +45,9 @@ See [the syllabus for all due dates](README.md).
 - **M6.** post-mortem report (5%)
 
 ## Teams
+The project will be performed in groups of 3-4 students. All students in one group must be registered in the same lab section, as the lab time will be used to work on the project. The Project TA will assign groups by Wednesday Sept. 11. You can email him any preferences to be assigned to the same group as your friend/classmate by Sept. 9th. (There is no guarantee that all preferences can be met.)
 
-- Instructor assigned - see Slack
-- If you are having trouble with your team (lazy group members, poor communication, technical trouble, etc.) **come see me or Omar as early as possible**. We cannot help you if you don't let us know. Telling me in April that the team was not effective will not be an excuse.
+- If you are having trouble with your team (lazy group members, poor communication, technical trouble, etc.) **come see me or a TA as early as possible**. We cannot help you if you don't let us know. Telling me in April that the team was not effective will not be an excuse.
 - A regular meeting schedule is highly recommended to keep everyone on track. You might want to follow a [Scrum style standup](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum): each team member says:
     -   What did you do since last meeting?
     -   What will you do before the next meeting?
@@ -43,7 +67,7 @@ Deploy your code as a Docker container. We will mark by pulling the latest from 
 
 ### Deliverables
 - Create a repository using the Github Classroom link
-- send your Github IDs to Omar
+- send your Github IDs to TAs
 - update the Readme with your team's name, and 3 projects of interest.
 
 ### Marking Guide
