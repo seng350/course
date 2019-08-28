@@ -29,7 +29,7 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 |-----|-----|
 | Project: M0 | September 13 |
 | Project: M1 | September 25 | 
-| Quiz 1 | | 
+| Quiz 1 | September 18 | 
 | Project: M2 | Oct 4 |
 |  Thanksgiving Day | **Oct 14** |
 |  Quiz 2 |  |
