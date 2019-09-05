@@ -48,8 +48,8 @@ In the Model as Executable, we are actually writing the program by building the 
 # Exercise
 In teams of 3-4 students, take the following systems and analyze the architecture (as you perceive it).
 
-* OpenMPI
-* GAMS
+* [OpenMPI](https://github.com/open-mpi/ompi)
+* [GAMS](https://github.com/jredmondson/gams)
 * [Jitsi](https://github.com/jitsi/jitsi-meet)
 
 At the end of the session, be prepared to present your findings and report to the class on:
