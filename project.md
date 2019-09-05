@@ -28,7 +28,8 @@ The following list contains a set of requirements for your course project. They 
 3. Users can invite other users to *view* or *edit* their projects. However, only the project *owner* can delete a project. Users can surrender project ownership to another user.
 4. The app user interface should provide a structured, forms-based interface for entering and updating content. 
 5. The app shall provide an overview page.
-6. The app shall follow web accessibility practices as defined by 
+6. The app shall follow web accessibility practices as defined by Web Content Accessibility Guidelines (WCAG), Version 2.0, checkable at https://achecker.ca/checker/index.php
+7. Check your code quality with an online tool like BetterCodeHub, SonarQube, Code Climate, or Code Inspector.
 
 ## Dates
 See [the syllabus for all due dates](README.md). 
