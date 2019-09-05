@@ -1,7 +1,6 @@
 ---
 Title: Module  2
 Author: Neil Ernst
-Date: Jan 10, 2019
 ---
 
 # Recall Our Definition
@@ -45,6 +44,18 @@ What is missing:
 The other modes, blueprint and executable, are really about making models do more than communicate in the short term. In the Blueprint approach, we want to *hand off* our models to downstream users, like architects do in the real world for buildings. 
 
 In the Model as Executable, we are actually writing the program by building the model. This is most common where there are tight constraints on safety or security, such as in automotive. In this mode, we use a tool like Simulink to draw block diagrams that a verified compiler can translate into safe (ish) C code. 
+
+# Exercise
+In teams of 3-4 students, take the following systems and analyze the architecture (as you perceive it).
+
+* OpenMPI
+* GAMS
+* [Jitsi](https://github.com/jitsi/jitsi-meet)
+
+At the end of the session, be prepared to present your findings and report to the class on:
+1. Why is this the architecture for this project?
+2. What advantages or disadvantages do you see in the architecture?
+3. How did you find or uncover the architecture you did? What steps did you take? 
 
 
 ## Anecdote: becoming an architect
