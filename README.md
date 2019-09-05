@@ -57,7 +57,9 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 * somewhere in the vast abyss of unrecoverable knowledge that is Connex/Coursespaces
 
 ## Instructors
-* [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours TBA, or by appt.
+* [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours Wed 11:30-12:30 & 2:30-3:30, or by appt.
+* [Alvi Mahadi]()
+* Paramvir Singh
 
 Please use Slack to message the TAs first.
 
