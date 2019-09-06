@@ -92,7 +92,7 @@ It's very hard to get good at anything without practice, and software design is 
 Software design is a naturally abstract topic that needs to be applied to make any sense. The recipe for success in SENG 350 is to regularly prepare for lectures by doing the required readings in advance, attending the lectures and participating in the design and coding walk-throughs, then completing the related exercises as soon as possible. If you do this you may be pleased to discover that the material will grow on you almost subconsciously. The recipe for failure is to await the midterms and final, then furiously attempt to memorize the book and lecture material. Please opt for success.
 
 ## Deliverables
-The class will use [Github](https://github.com/SENG350) and [Slack](https://join.slack.com/t/seng350uvic/signup). Students will have to register their Github username (either a permanent one or a throwaway) with the instructors. Those with an objection to using Github or Slack, please contact the instructor for workarounds. All Github activity is private to the class organization. Please see the privacy notice on the Connex site.
+The class will use [Github](https://github.com/SENG350) and [Slack](https://seng350.slack.com/signup). Students will have to register their Github username (either a permanent one or a throwaway) with the instructors. Those with an objection to using Github or Slack, please contact the instructor for workarounds. All Github activity is private to the class organization. Please see the privacy notice on the Connex site.
 
 [Slack](https://seng350.slack.com) will be the primary mechanism used for communication in the class. My rationale (apart from being tools used in practice) is to expose the class as a whole to questions about assignment and lectures.  Please use the `general_2019` channel for discussion, as this Slack gets re-used year to year.
 
@@ -125,7 +125,7 @@ There is no final.
 
 ## Resources
 
-1. [Slack](https://seng330uvic.slack.com)
+1. [Slack](https://seng350.slack.com)
 2. [Github help pages](https://help.github.com)
 3. [Github bootcamp](https://help.github.com/articles/set-up-git/)
 
