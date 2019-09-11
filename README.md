@@ -15,12 +15,12 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 | Module | Topics | Other Resources | Readings  | 
 |---| --------------------------------------------------------- | --------- | ----------------|
 | 1 |   [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) | | text chapter 1  |
-| 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | | text chapter 2 ; [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/)| 
+| 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | | text chapter 2 ; [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/); [node module problems](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/); | 
 |3 |  [Architecture Stakeholders and Quality Attributes](https://github.com/SENG350/course/blob/master/lectures/4-req.md). | | text chapter 16  | 
-|4 | [Architecture Tactics]() | | text chapter 13, quality attribute chapters 5,7,8,9 | 
+| 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | text chapter 17  | 
+| 4 | [Architecture Tactics]() | | text chapter 13, quality attribute chapters 5,7,8,9 | 
 | 5 | [Views on Architecture - Modules](https://github.com/SENG350/course/blob/master/lectures/5-modules.md) | | text chapter 18 | 
 | 6 | [Views on Architecture - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) | [SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View) | text chapter 4 | 
-| 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | text chapter 17  | 
 | 8  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
 
@@ -30,15 +30,15 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 | Project: M0 | September 13 |
 | Project: M1 | September 25 | 
 | Quiz 1 | September 18 | 
+|  Quiz 2 | Sept 30 |
 | Project: M2 | Oct 4 |
 |  Thanksgiving Day | **Oct 14** |
-|  Quiz 2 |  |
 | Project M3| Oct 25 |
 |  Midterm  | **Oct 31** |
+|  Quiz 3  | Nov 8 |
 | Reading Break | Nov 11-13 (no class) |
-|  Quiz 3  | |
 | Project M3.5 | Nov 15 |
-|  Quiz 4  | |
+|  Quiz 4  | Nov 18 |
 |  Quiz 5 | **Nov 28** |
 | Project M4/5 demos and code reviews | Dec 2-5 |
 | Last class | Dec 4 | 
@@ -58,8 +58,8 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 
 ## Instructors
 * [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours Wed 11:30-12:30 & 2:30-3:30, or by appt.
-* [Alvi Mahadi]()
-* Paramvir Singh
+* [Alvi Mahadi]() - B03 (Wed)
+* Paramvir Singh - B01/02 (Tuesday)
 
 Please use Slack to message the TAs first.
 
