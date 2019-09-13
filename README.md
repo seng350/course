@@ -1,6 +1,5 @@
 # Software Architecture and Design: SENG 350
 -------------------------
-**DRAFT**
 
 ## Schedule and Topics
 
@@ -15,7 +14,7 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 | Module | Topics | Other Resources | Readings  | 
 |---| --------------------------------------------------------- | --------- | ----------------|
 | 1 |   [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) | | text chapter 1  |
-| 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | | text chapter 2 ; [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/); [node module problems](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/); | 
+| 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | [cost of change](http://www.agilemodeling.com/essays/costOfChange.htm) [arch role](https://raw.githubusercontent.com/seng350/course/master/lectures/img/add3.jpg) | text chapter 2 ; [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/); [node module problems](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/); | 
 |3 |  [Architecture Stakeholders and Quality Attributes](https://github.com/SENG350/course/blob/master/lectures/4-req.md). | | text chapter 16  | 
 | 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | text chapter 17  | 
 | 4 | [Architecture Tactics]() | | text chapter 13, quality attribute chapters 5,7,8,9 | 
