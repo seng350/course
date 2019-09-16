@@ -15,17 +15,17 @@ Some examples:
 
 ## Detailed Requirements
 
-The following list contains a set of requirements for your course project. They are purposefully not written as a formal software requirements specification, as your first task will be to create and formalize such a specification. If you are unclear about anything here, please post your question to Slack.
+The following list contains a set of requirements for your course project. They are purposefully not written as a formal software requirements specification, as your first task will be to create and formalize such a specification. If you are unclear about anything here, please post your question to Slack. If a requirement is changed, I'll capture that in italics, or with a strikethrough. Also use Github's diff capability to see changes.
 
 1. The app shall be Web-based and use the technologies introduced in the labs, in particular TypeScript, Node, Express, MongoDB.
-2. The app shall not use view templates (like Jade) or CSS templates (like JADE). Do this by hand.
+2. The app shall not use view templates (like Jade), view engines (React) or CSS templates (like JADE). Do this by hand.
 3. The app shall not use ORM tools such as Mongoose.
-4. The app shall not use MVC frameworks. 
-4. For other libraries or APIs, check with your lab TA.
+4. The app shall not use MVC frameworks *like Angular*.
+4. For other libraries or APIs, check with your lab TA. *In general if it is intended to help make your app cool, I'm ok with it. If it is doing the design for you, less so.*
 2. The app shall support different user IDs, each user ID should be able to create (update and delete) different aspects of your app. 
     1. Note: to keep the complexity of the project in check, you will not have to implement user authentication. The app should simply have a “user ID list” view that shows all known user IDs and allows the user to select one of them. 
     2. The app should support a special user ID “admin”. This user ID cannot be deleted and has the special ability to create or delete other (regular) user IDs.
-3. Users can invite other users to *view* or *edit* their projects. However, only the project *owner* can delete a project. Users can surrender project ownership to another user.
+		3. <s>Users can invite other users to *view* or *edit* their projects. However, only the project *owner* can delete a project. Users can surrender project ownership to another user.</s>
 4. The app user interface should provide a structured, forms-based interface for entering and updating content. 
 5. The app shall provide an overview page.
 6. The app shall follow web accessibility practices as defined by Web Content Accessibility Guidelines (WCAG), Version 2.0, checkable at https://achecker.ca/checker/index.php
@@ -46,7 +46,7 @@ See [the syllabus for all due dates](README.md).
 - **M6.** post-mortem report (5%)
 
 ## Teams
-The project will be performed in groups of 3-4 students. All students in one group must be registered in the same lab section, as the lab time will be used to work on the project. The Project TA will assign groups by Wednesday Sept. 11. You can email him any preferences to be assigned to the same group as your friend/classmate by Sept. 9th. (There is no guarantee that all preferences can be met.)
+The project will be performed in groups of 3-4 students. All students in one group must be registered in the same lab section, as the lab time will be used to work on the project. The Project TAs will assign groups by Wednesday Sept. 11. You can email him any preferences to be assigned to the same group as your friend/classmate by Sept. 9th. (There is no guarantee that all preferences can be met.)
 
 - If you are having trouble with your team (lazy group members, poor communication, technical trouble, etc.) **come see me or a TA as early as possible**. We cannot help you if you don't let us know. Telling me in April that the team was not effective will not be an excuse.
 - A regular meeting schedule is highly recommended to keep everyone on track. You might want to follow a [Scrum style standup](https://www.mountaingoatsoftware.com/agile/scrum/meetings/daily-scrum): each team member says:
@@ -60,7 +60,7 @@ All students are expected to participate equally in discussions, design and deve
 # Formats and Logistics
 We will be using CI with Travis and Github. Table stakes for project marking is evidence that CI pipelines are being used and used effectively. Testing your code is mandatory, and tests should be relevant, informative, and passing.
 
-Deploy your code as a Docker container. We will mark by pulling the latest from DockerHub (tentative). 
+Ensure your code works as a Docker container. We will mark by pulling the latest from DockerHub (milestone 4). 
 
 # Milestones
 
@@ -68,28 +68,28 @@ Deploy your code as a Docker container. We will mark by pulling the latest from 
 
 ### Deliverables
 - Create a repository using the Github Classroom link
-- send your Github IDs to TAs
-- update the Readme with your team's name, and 3 projects of interest.
+- <s>send your Github IDs to TAs</s>
+- update the Readme with your team's name, and 3 project *ideas*.
 
 ### Marking Guide
 Simple. Do the above.
 
-## 1. Architecturally significant requirements (ASRs) 
+## 1. Features and Architecturally Significant Requirements (ASRs) 
 
 ### Deliverables
-1. The list of ASRs
-2. A fully worked out utility tree, with at least 7 prioritized quality attribute scenarios, 3 (of the 7) in template form.
+1. 7 user stories explaining features of your app at a high level. Add these as issues in Github.
+2. 7 quality attribute scenarios, 3 of which you intend to test in your CI pipeline. They must be from 3 different Quality Attributes (e.g., usability, testability, maintainability). Add these as issues in Github, and explain the test procedure there as well. 
 
 ### Marking Guide
-- Relevance of the ASRs to the project. 
+- Relevance of the ASRs to the project idea. 
 - Appropriateness of scenarios.
-- Quality of scenarios.
+- Thoughtfulness of user stories
 
 ## 2. Detailed design
-Describe, in <5 pages, how you intend to solve the problem and implement the ASRs from M1. Include how you will continuously integrate and deploy the app and how you will test it. 
+Describe, in <5 pages, how you intend to solve the problem and implement user stories and the ASRs from M1. Include how you will continuously integrate and deploy the app and how you will test it. Since we know this is a web app, assume the reader is familiar with basic app design and instead elaborate on how you will make the app conform to the ASRs (e.g., ensure performance is satisfied).
 
 ### Deliverables
-1. PlantUML or JetUML class and behavior diagrams
+1. PlantUML or JetUML class and behavior diagrams. This should explain the module structure and runtime/C&C structure of your app. 
 2. Design rationale, as Arch Decision Record
 
 ### Marking Guide
@@ -99,44 +99,33 @@ Describe, in <5 pages, how you intend to solve the problem and implement the ASR
 
 ### Deliverables
 1. Commit latest, working code to Github tagged "sprint1"
-2. BetterCodeHub report
-3. Passing Travis builds.
+2. Static analysis report
+3. Passing Travis builds
 4. Code coverage report.
 
 ### Marking Guide
-- Code compiles (no marks otherswise)
-- BetterCodeHub score > 8
+- Code compiles (no marks otherwise)
+- No huge problems reported by linters and analyses
 - Test coverage and quality is good
-- Container accessible
+- Software priniciples like good naming, comments, high cohesion are followed.
 
 ## 3.5. Code iteration 2
 This is a checkin milestone, to ensure code is being written.
 
 ### Deliverables
-1. Commit latest, working code to Github tagged "sprint1"
-2. BetterCodeHub report
-3. Passing Travis builds.
-4. Code coverage report.
+1. As in iteration 1, but add a short note in the readme explaining what has improved.
 
 ### Marking Guide
-- Code compiles (no marks otherswise)
-- BetterCodeHub score > 8
-- Test coverage and quality is good
-- Container accessible
+- As in iteration 1
 
 ## 4. Code iteration 3
 
 ### Deliverables
 1. Commit final, working code to Github tagged "sprint1"
-2. BetterCodeHub report
-3. Passing Travis builds.
-4. Code coverage report.
+2. As in iteration 2
 
 ### Marking Guide
-- Code compiles (no marks otherswise)
-- BetterCodeHub score > 8
-- Test coverage and quality is good
-- Container accessible
+- AS in iteration 1/2
 
 ## 5. Final Demo 
 During the last week of class, schedule some time with me and the TAs to show your final project, and walk us through the code/design.
