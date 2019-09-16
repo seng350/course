@@ -1,7 +1,6 @@
 ---
 Title: Module  4 - Stakeholders and Requirements
 Author: Neil Ernst
-Date: Jan 13, 2018
 ---
 
 # Stakeholders
@@ -9,7 +8,7 @@ We've mentioned a few times that what matters is who the system is *for*, not wh
 
 Back to our Blue Bridge example. Who are the stakeholders in this project?
 
-For the project, I've asked you to fill in a table from the Rozanski and Woods approach. It looks something like this:
+Here is a. table from the Rozanski and Woods book on architecture (see syllabus). It looks something like this:
 
 | Role | Concerns | Instances |
 |-----|----------|-----------|
@@ -43,15 +42,63 @@ Let's classify requirements along the lines of Martin Glinz's paper "On Non-Func
 ![](img/glinz-nfr.png)
 
 As architects, we often assume the requirements come from somewhere else - product owners, business analysts, requirements engineers, etc. But in truth architects need to have a deep familiarity with the requirements. For one thing, it allows them to decide which direction to take the project. And for another, the "Architecturally Significant Requirements" (ASRs) have a profound impact on the system. So architects have a vested interest in ensuring they are properly specified.
+## User Stories 
+Primarily these help capture the functionality the software should provide. 
+
+User stories are:
+
+* a ~3 sentence description of what the software should do
+* Conversation starters
+* should only provide enough detail to make a low-risk estimate of how long it would take to implement (1,2 or 3 week estimate in “ideal development time”)
+* written in the customer’s language, from the customer’s point of view
+* Typically take Role-Goal-Benefit form:
+> “As a \<ROLE\>, I want to \<GOAL\> in order to \<BENEFIT\>”
+
+> As a student, I need to login to RTC in order to finish the assignment
+
+### Product Backlog Item
+User Story also
+
+* has a description of the story providing additional detail
+* specifies acceptance criteria that defines what is meant for this feature to be DONE
+* provides estimate of the required effort (story points) 
+
+INVEST (for a good user story):
+Independent, Negotiable, Valuable to users or customers, Estimable, Small, Testable
+
+### Example – User Story
+> As a job company, I can use my credit card so I can pay for postings. (A job company can pay for posting with a credit card.)
+
+Note: Accept Visa, MasterCard, American Express. Consider Discover.
+Test: (on the back of the story card)
+Test with Visa, MasterCard and American Express (pass) Test with Diner’s Club (fail)
+Test with good, bad and missing card ID numbers.
+Test with expired cards.
+Test with over $100 and under $100.
+
+### Example – User Story & Test
+> As a Creator, I want to upload a video from my local machine so that any users can view it.
+
+Note: Accept Visa or MC. Consider Discover card.
+
+Test:
+
+1. Click the “Upload” button
+2. Specify a video file to upload.
+3. Check that .flv, .mov, .mp4, .avi, and .mpg extensions are supported. Check that other filetypes aren’t able to be uploaded.
+4. Check that files larger than 100MB results in an error.
+5. Check that movies longer than 10 mins result in an error.
+6. Click “Upload Video”.
+7. Check that progress is displayed in real time.
 
 ## ASRs 
 
 Let's think about how we do design and/or architecture. Design is the process of mapping a solution onto the given problem. One of the things we need to know when trying to understand a code base is what, exactly, are the set of requirements it is responding to. This is made more difficult in open source software, where the requirements process is much less clear. For instance, the requirements might be self-derived or taken from vague milestone planning processes.
 
-For your project, M2 asks you to provide
+For your project, M1 asks you to provide
 
 - The list of ASRs
-- A fully worked out utility tree, with at least 7 prioritized quality attribute scenarios, 3 in template form.
+- A set of user stories
 
 In order to find the ASRs, you should think about what an architect would do in a "rational design process". Which they may not have followed, of course.
 
