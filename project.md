@@ -18,7 +18,7 @@ Some examples:
 The following list contains a set of requirements for your course project. They are purposefully not written as a formal software requirements specification, as your first task will be to create and formalize such a specification. If you are unclear about anything here, please post your question to Slack. If a requirement is changed, I'll capture that in italics, or with a strikethrough. Also use Github's diff capability to see changes.
 
 1. The app shall be Web-based and use the technologies introduced in the labs, in particular TypeScript, Node, Express, MongoDB.
-2. The app shall not use view templates (like Jade), view engines (React) or CSS templates (like JADE). Do this by hand.
+2. The app shall not use <s>view/CSS templates (like Jade),</s> view engines (React). *Template engines like Pug/Jade/Mustache etc are acceptable*.
 3. The app shall not use ORM tools such as Mongoose.
 4. The app shall not use MVC frameworks *like Angular*.
 4. For other libraries or APIs, check with your lab TA. *In general if it is intended to help make your app cool, I'm ok with it. If it is doing the design for you, less so.*
