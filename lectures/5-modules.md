@@ -1,7 +1,6 @@
 ---
 Title: Module  5 - Module Views
 Author: Neil Ernst
-Date: Jan 18, 2018
 ---
 
 # Structures
