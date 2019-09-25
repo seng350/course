@@ -29,7 +29,7 @@ The following list contains a set of requirements for your course project. They 
 4. The app user interface should provide a structured, forms-based interface for entering and updating content. 
 5. The app shall provide an overview page.
 6. The app shall follow web accessibility practices as defined by Web Content Accessibility Guidelines (WCAG), Version 2.0, checkable at https://achecker.ca/checker/index.php
-7. Check your code quality with an online tool like BetterCodeHub, SonarQube, Code Climate, or Code Inspector.
+7. Check your code quality with an online tool like [BetterCodeHub](https://bettercodehub.com/ "Better Code Hub"), [SonarQube](https://www.sonarqube.org/ "SonarQube"), [Code Climate](https://codeclimate.com/ "Code Climate"), or [Code Inspector](https://www.code-inspector.com/ "Code Inspector Static Analysis Tool").
 
 ## Dates
 See [the syllabus for all due dates](README.md). 
@@ -58,7 +58,7 @@ The project will be performed in groups of 3-4 students. All students in one gro
 All students are expected to participate equally in discussions, design and development. The instructor will make marking adjustments for individual students where this participation has not occurred; this may result in a failing grade for the project. At the mid-point and conclusion of the project you will be asked to evaluate your colleagues on the team. Your peer review score and participation on Github/Slack will strongly influence what percentage of the project mark you get. 
 
 # Formats and Logistics
-We will be using CI with Travis and Github. Table stakes for project marking is evidence that CI pipelines are being used and used effectively. Testing your code is mandatory, and tests should be relevant, informative, and passing.
+We will be using CI with [Travis](https://travis-ci.com/ "Travis CI") and Github. Table stakes for project marking is evidence that CI pipelines are being used and used effectively. Testing your code is mandatory, and tests should be relevant, informative, and passing.
 
 Ensure your code works as a Docker container. We will mark by pulling the latest from DockerHub (milestone 4). 
 
@@ -110,7 +110,7 @@ Describe, in <5 pages, how you intend to solve the problem and implement user st
 - Software priniciples like good naming, comments, high cohesion are followed.
 
 ## 3.5. Code iteration 2
-This is a checkin milestone, to ensure code is being written.
+This is a check-in milestone, to ensure code is being written.
 
 ### Deliverables
 1. As in iteration 1, but add a short note in the readme explaining what has improved.
@@ -125,7 +125,7 @@ This is a checkin milestone, to ensure code is being written.
 2. As in iteration 2
 
 ### Marking Guide
-- AS in iteration 1/2
+- As in iteration 1/2
 
 ## 5. Final Demo 
 During the last week of class, schedule some time with me and the TAs to show your final project, and walk us through the code/design.
