@@ -17,7 +17,7 @@ We mentioned earlier that good documentation follows some standard organization.
 
 While I present one approach for capturing information on a view, there are other approaches equally viable (and the DelftSWA course show one other approach). 
 
-This is from Fig 18.3 in the text (3rd ed). You can find this and a [fully worked example here](https://wiki.sei.cmu.edu/sad/index.php/Template:ViewTemplate). [An example of a 'uses view'](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View). **Your project should be following this organizational approach for M3 and M4**.
+This is from Fig 18.3 in the text (3rd ed). You can find this and a [fully worked example here](https://wiki.sei.cmu.edu/sad/index.php/Template:ViewTemplate). [An example of a 'uses view'](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View). 
 
 ![SEI view template](img/view-template.png)
 
