@@ -98,22 +98,24 @@ Describe, in <5 pages, how you intend to solve the problem and implement user st
 ## 3. Code iteration 1
 
 ### Deliverables
-1. Commit latest, working code to Github tagged "sprint1"
+1. Commit latest, working code to Github tagged "sprint1". *Ensure there is a build process documented in the Readme file*.
 2. Static analysis report
 3. Passing Travis builds
 4. Code coverage report.
+5. *Readme file explaining functionality, what user stories were addressed, what design problems were faced (and how design changed).*
 
 ### Marking Guide
 - Code compiles (no marks otherwise)
 - No huge problems reported by linters and analyses
 - Test coverage and quality is good
-- Software priniciples like good naming, comments, high cohesion are followed.
+- Software principles like good naming, comments, high cohesion are followed.
 
 ## 3.5. Code iteration 2
 This is a checkin milestone, to ensure code is being written.
 
 ### Deliverables
 1. As in iteration 1, but add a short note in the readme explaining what has improved.
+2. *System deployed in Docker container on Docker Hub.* 
 
 ### Marking Guide
 - As in iteration 1
@@ -123,6 +125,7 @@ This is a checkin milestone, to ensure code is being written.
 ### Deliverables
 1. Commit final, working code to Github tagged "sprint1"
 2. As in iteration 2
+3. *System deployed to Docker Hub*
 
 ### Marking Guide
 - AS in iteration 1/2
