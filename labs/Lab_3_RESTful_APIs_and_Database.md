@@ -278,7 +278,7 @@ With the exclamation mark, we assert that it will be initialized. You can read m
 
 Let’s now use the DBClient class in our RESTful API. Let’s change the *getAll* method in the *HeroRouter* class to read heroes from the database instead of from a file. We start by importing the DbClient singleton:
 
-`**import**` `DbClient =` `**require**``("../DbClient");`
+`import DbClient = require("../DbClient");`
 
 Now we can use it in the implementation of *getAll:*
 
@@ -288,14 +288,14 @@ Now we can use it in the implementation of *getAll:*
      */
     public getAll(req: Request, res: Response, next: NextFunction) {
         DbClient.connect()
-            .then((db) => {
+            .then((db: any) => {
                 return db!.collection("heroes").find().toArray();
                 })
             .then((heroes:any) => {
                 console.log(heroes);
                 res.send(heroes);
                 })
-            .catch((err) => {
+            .catch((err: any) => {
             console.log("err.message");
                 })
     }
