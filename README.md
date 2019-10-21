@@ -11,16 +11,17 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 
 ### Modules
 
-| Module | Topics | Other Resources | Readings  | 
+| Module | Topics | Other Resources | Readings  |
 |---| --------------------------------------------------------- | --------- | ----------------|
 | 1 |   [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) | | text chapter 1  |
-| 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | [cost of change](http://www.agilemodeling.com/essays/costOfChange.htm) • [arch role](https://raw.githubusercontent.com/seng350/course/master/lectures/img/add3.jpg) • [Boehm cost curve](lectures/img/How-Much-Architecting-is-Enough.png) | text chapter 2 • [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/) • [node module problems](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/); | 
-|3 |  [Architecture Stakeholders and Quality Attributes](https://github.com/SENG350/course/blob/master/lectures/4-req.md). | | text chapter 16  | 
-| 5 | [Views on Architecture - Modules](https://github.com/SENG350/course/blob/master/lectures/5-modules.md) | | text chapter 18 | 
-| 6 | [Views on Architecture - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) | [SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View) | text chapter 4 | 
-| 6 | [Views on Architecture - Allocation](https://github.com/SENG350/course/blob/master/lectures/allocation_jens.pdf) |  [Pizza model](https://m.oursky.com/saas-paas-and-iaas-explained-in-one-graphic-d56c3e6f4606) | text chapter 18 | 
-| 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) • [OO Principles](lectures/ooprinciples.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | [HomeAssistant sections 0-5](home_assistant_arch.pdf) • text chapter 17  | 
-| 4 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 13, quality attribute chapters 5,7,8,9 | 
+| 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | [cost of change](http://www.agilemodeling.com/essays/costOfChange.htm) • [arch role](https://raw.githubusercontent.com/seng350/course/master/lectures/img/add3.jpg) • [Boehm cost curve](lectures/img/How-Much-Architecting-is-Enough.png) | text chapter 2 • [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/) • [node module problems](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/); |
+|3 |  [Architecture Stakeholders and Quality Attributes](https://github.com/SENG350/course/blob/master/lectures/4-req.md). | | text chapter 16  |
+| 5 | [Views on Architecture - Modules](https://github.com/SENG350/course/blob/master/lectures/5-modules.md) | | text chapter 18 |
+| 6 | [Views on Architecture - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) | [SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View) | text chapter 4 |
+| 6 | [Views on Architecture - Allocation](https://github.com/SENG350/course/blob/master/lectures/allocation_jens.pdf) |  [Pizza model](https://m.oursky.com/saas-paas-and-iaas-explained-in-one-graphic-d56c3e6f4606) | text chapter 18 |
+| 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) • [OO Principles](lectures/ooprinciples.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | [HomeAssistant sections 0-5](home_assistant_arch.pdf) • text chapter 17  |
+| 4 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 13, quality attribute chapters 5 |
+| 4 | [Architecture Tactics - Modifiability](lectures/modifability.md) || text chapter 7 |
 | 8  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
 
@@ -28,8 +29,8 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 | Event | Deadline |
 |-----|-----|
 | Project: M0 | September 13 |
-| Project: M1 | September 25 | 
-| Quiz 1 | September 18 | 
+| Project: M1 | September 25 |
+| Quiz 1 | September 18 |
 |  Quiz 2 | Sept 30 |
 | Project: M2 | Oct <s>4</s> 11 |
 |  Thanksgiving Day | **Oct 14** |
@@ -41,7 +42,7 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 |  Quiz 4  | Nov 18 |
 |  Quiz 5 | **Nov 28** |
 | Project M4/5 demos and code reviews | Dec 2-5 |
-| Last class | Dec 4 | 
+| Last class | Dec 4 |
 | Project: M6 | Dec 11 |
 
 ### Lab Schedule
