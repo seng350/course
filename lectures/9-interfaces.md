@@ -83,11 +83,11 @@ We can use lollipops and sockets as well (again, in the primary presentation).
 
 # Group Exercise
 
-Use the template following to capture the interface documentation for the following scenarios. The scanerios share the common theme that the current docs are terrible; your job is to improve it. M4 will use exactly this template. **Make whatever assumptions you need** to make the problem simpler. The idea is to document the interface that this module provides, rather than spending time improving or ironing out details of the design. 
+Use the template following to capture the interface documentation for the following scenarios. The scenarios share the common theme that the current docs are terrible; your job is to improve it. M4 will use exactly this template. **Make whatever assumptions you need** to make the problem simpler. The idea is to document the interface that this module provides, rather than spending time improving or ironing out details of the design. 
 
 Group 1/2/3: Scenario 1
 Group 4/5/6: Scenario 2
-Group 7/8: Scenario 3
+Group 7/8/9: Scenario 3
 
 ## Scenario 1
 Your team needs to specify the interface for a module that does credit card transaction processing:

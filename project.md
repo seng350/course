@@ -93,7 +93,7 @@ Describe, in <5 pages, how you intend to solve the problem and implement user st
 2. Design rationale, as Arch Decision Record
 
 ### Marking Guide
-- 
+- see [project-rubric.md](project-rubric.md)
 
 ## 3. Code iteration 1
 
@@ -105,10 +105,7 @@ Describe, in <5 pages, how you intend to solve the problem and implement user st
 5. *Readme file explaining functionality, what user stories were addressed, what design problems were faced (and how design changed).*
 
 ### Marking Guide
-- Code compiles (no marks otherwise)
-- No huge problems reported by linters and analyses
-- Test coverage and quality is good
-- Software principles like good naming, comments, high cohesion are followed.
+- see [project-rubric.md](project-rubric.md)
 
 ## 3.5. Code iteration 2
 This is a checkin milestone, to ensure code is being written.
@@ -128,7 +125,7 @@ This is a checkin milestone, to ensure code is being written.
 3. *System deployed to Docker Hub*
 
 ### Marking Guide
-- AS in iteration 1/2
+- As in iteration 1/2
 
 ## 5. Final Demo 
 During the last week of class, schedule some time with me and the TAs to show your final project, and walk us through the code/design.
@@ -140,6 +137,7 @@ During the last week of class, schedule some time with me and the TAs to show yo
 Presentation must be attended by all group members, all of whom may be asked questions about the project.
 
 ### Marking Guide
+- see [project-rubric.md](project-rubric.md)
 
 ## 6. Post-mortem
 After class and the project are done, create a group retrospective document as a Markdown file called `retro.md`. It should reflect on what you learned, what you could do better, and how your design can be improved. 
@@ -151,7 +149,7 @@ After class and the project are done, create a group retrospective document as a
 
 
 ### Marking Guide
-
+- see [project-rubric.md](project-rubric.md)
 
 # Helpful Links
 * [Student's Guide to SE projects](http://www.cdf.toronto.edu/~csc301h/fall/csc301.pdf) 
