@@ -5,6 +5,8 @@
 
 The following schedule is subject to change. All deadlines and due dates listed here are the official dates. 
 
+See the [schedule so far](lectures/img/semester-plan.png)
+
 This semester I'm doing the schedule differently. Instead of detailed day by day schedules, I'll list the main modules, the slides, and then key dates. Modules are sequential, and I aim to do one module per week. If you miss a class, I assume you can figure out what you missed. If not, see your classmates. 
 
 Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard MR/TWF schedule). Class is in Cornett A221. Labs are in ELW B238.
