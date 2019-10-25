@@ -23,7 +23,7 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 | 6 | [Views on Architecture - Allocation](https://github.com/SENG350/course/blob/master/lectures/allocation_jens.pdf) |  [Pizza model](https://m.oursky.com/saas-paas-and-iaas-explained-in-one-graphic-d56c3e6f4606) | text chapter 18 |
 | 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) • [OO Principles](lectures/ooprinciples.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | [HomeAssistant sections 0-5](home_assistant_arch.pdf) • text chapter 17  |
 | 4 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 13, quality attribute chapters 5 |
-| 4 | [Architecture Tactics - Modifiability](lectures/modifiability.md) || text chapter 7 |
+| 4 | [Architecture Tactics - Modifiability](lectures/modifiability.md) | [Ambler CRC](http://www.agilemodeling.com/artifacts/crcModel.htm) | text chapter 7 |
 | 8  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
 
