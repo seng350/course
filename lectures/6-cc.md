@@ -28,8 +28,8 @@ Next, we describe the elements in the primary presentation. We need to list what
 We will show a context diagram, putting this view in the context of the entire system, and external systems it interacts with. The *variability guide* will explain to readers where things can change in the system. Finally, rationale will explain why this view is the way it is. We describe decisions made (and why), alternatives considered, obstacles, etc.
 
 # Component and Connector Views (p. 332)
-*Elements*: components: principal units of runtime interaction and data stores and connectors: interaction mechanisms
-*Relations*: attachment of components’ ports to connectors’ roles (interfaces with protocols)
+*Elements*: components: principal units of runtime interaction and data stores and connectors: interaction mechanisms  
+*Relations*: attachment of components’ ports to connectors’ roles (interfaces with protocols)  
 *Properties*: name, relevant QA
 
 ## Why We Care - questions C&C views can answer
