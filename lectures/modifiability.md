@@ -124,7 +124,7 @@ Tips:
 
 (Chapter 7)
 
-![modifiability tactics](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/modifiability-tactics.png)
+![modifiability tactics](img/modifiability-tactics.png)
 
 ## Tactics in Detail
 
