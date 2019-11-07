@@ -24,6 +24,7 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 | 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) • [OO Principles](lectures/ooprinciples.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | [HomeAssistant sections 0-5](home_assistant_arch.pdf) • text chapter 17  |
 | 4 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 13, quality attribute chapters 5 |
 | 4 | [Architecture Tactics - Modifiability](lectures/modifiability.md) | [Ambler CRC](http://www.agilemodeling.com/artifacts/crcModel.htm) | text chapter 7 |
+| 4 | [Architecture Tactics - Privacy](lectures/privacy.md) | [Privacy Patterns](https://privacypatterns.org/) | none |
 | 8  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
 
@@ -38,10 +39,10 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 |  Thanksgiving Day | **Oct 14** |
 | Project M3| Oct 25 |
 |  Midterm  | **Oct 31** |
-|  Quiz 3  | Nov 7 |
+|  Quiz 3  | <s>Nov 7<s>Nov 18 |
 | Reading Break | Nov 11-13 (no class) |
 | Project M3.5 | Nov 15 |
-|  Quiz 4  | Nov 18 |
+|  Quiz 4  | Nov |
 |  Quiz 5 | **Nov 28** |
 | Project M4/5 demos and code reviews | Dec 2-5 |
 | Last class | Dec 4 |
