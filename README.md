@@ -39,13 +39,13 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 |  Thanksgiving Day | **Oct 14** |
 | Project M3| Oct 25 |
 |  Midterm  | **Oct 31** |
-|  Quiz 3  | <s>Nov 7<s>Nov 18 |
+|  Quiz 3  | <s>Nov 7</s> **Nov 18** |
 | Reading Break | Nov 11-13 (no class) |
 | Project M3.5 | Nov 15 |
-|  Quiz 4  | Nov |
-|  Quiz 5 | **Nov 28** |
-| Project M4/5 demos and code reviews | Dec 2-5 |
-| Last class | Dec 4 |
+|  Quiz 4  | **Nov 25** |
+|  Quiz 5 | **Dec 2** |
+| Project M4/5 demos and code reviews | Dec 2-4 |
+| Last class | Dec 2 (no formal class Dec 4, demos in lab) |
 | Project: M6 | Dec 11 |
 
 ### Lab Schedule
