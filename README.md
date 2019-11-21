@@ -25,6 +25,7 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 | 4 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 13, quality attribute chapters 5 |
 | 4 | [Architecture Tactics - Modifiability](lectures/modifiability.md) | [Ambler CRC](http://www.agilemodeling.com/artifacts/crcModel.htm) | text chapter 7 |
 | 4 | [Architecture Tactics - Privacy](lectures/privacy.md) | [Privacy Patterns](https://privacypatterns.org/) | none |
+| 4 | [Architecture Tactics - Performance](lectures/performance.md) |  | Text chapter 8 |
 | 8  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
 
