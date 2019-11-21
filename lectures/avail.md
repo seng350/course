@@ -107,4 +107,4 @@ What are some availability scenarios for a home-assistant install?
 # References
 1. [SEI article](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2009_005_001_15101.pdf) 
 2. Release It! By Michael Nygard
-3. [Chaos Engineering](https://www.oreilly.com/library/view/chaos-engineering/9781491988459/) (Netflix) by Basiri et al.
+   3. [Chaos Engineering](https://www.oreilly.com/library/view/chaos-engineering/9781491988459/) (Netflix) by Basiri et al.	

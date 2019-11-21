@@ -131,4 +131,4 @@ Look through the HomeAssistant source code. Identify 2 examples of PII and priva
 
 1. *Jaap-Henk Hoepman* , 2019. Privacy Design Strategies (The Little Blue Book). 
 2. https://privacypatterns.org/patterns/
-3. https://resources.sei.cmu.edu/asset_files/Podcast/2009_016_100_47206.pdf
+   3. https://resources.sei.cmu.edu/asset_files/Podcast/2009_016_100_47206.pdf
