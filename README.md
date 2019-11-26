@@ -45,9 +45,10 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 | Project M3.5 | Nov 15 |
 |  Quiz 4  | **Nov 25** |
 |  Quiz 5 | **Dec 2** |
-| Project M4/5 demos and code reviews | Dec 2-4 |
-| Last class | Dec 2 (no formal class Dec 4, demos in lab) |
-| Project: M6 | Dec 11 |
+| Project M5: demos and code reviews | Dec 3 and 4 |
+| Project M4 | Midnight, **Dec 6**, in repo tagged 'final' |
+| Last class | Dec 2 (no class Dec 4, demos in lab) |
+| Project: M6 | Dec 11 midnight |
 
 ### Lab Schedule
 * [Lab schedule](labs.md)

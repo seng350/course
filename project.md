@@ -120,7 +120,7 @@ This is a check-in milestone, to ensure code is being written.
 ## 4. Code iteration 3
 
 ### Deliverables
-1. Commit final, working code to Github tagged "sprint1"
+1. Commit final, working code to Github tagged "final"
 2. As in iteration 2
 3. *System deployed to Docker Hub*
 
@@ -128,12 +128,14 @@ This is a check-in milestone, to ensure code is being written.
 - As in iteration 1/2
 
 ## 5. Final Demo 
-During the last week of class, schedule some time with me and the TAs to show your final project, and walk us through the code/design.
+During the last week of class, demo your final project, and walk us through the code/design. In lab. 
 
-### Other aspects to keep in mind
+Walk us through your user stories and QAS, and briefly explain your development process. The demo should have a script to save time and keep organized. 
 
+Be prepared to explain how your project works from a design perspective, and what key challenges you faced.
 
 ### Deliverables
+
 Presentation must be attended by all group members, all of whom may be asked questions about the project.
 
 ### Marking Guide
@@ -142,10 +144,9 @@ Presentation must be attended by all group members, all of whom may be asked que
 ## 6. Post-mortem
 After class and the project are done, create a group retrospective document as a Markdown file called `retro.md`. It should reflect on what you learned, what you could do better, and how your design can be improved. 
 
-### Other aspects to keep in mind
-
-
 ### Deliverables
+
+The Markdown file. Use appropriate technical writing style and organization. Aim for at least 1000 words.
 
 
 ### Marking Guide
