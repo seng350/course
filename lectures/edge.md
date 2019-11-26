@@ -15,7 +15,7 @@ We therefore have a few design choices. One, we put a big storage device on the 
 
 How would your decision change if the drone was flying on Mars, instead of Earth?
 
-![edge-graphic comparing it to cloud](../SENG350/course/lectures/img/edge-cloud.png)
+![edge-graphic comparing it to cloud](img/edge-cloud.png)
 
 Within the concept of edge, cyber-foraging is a technique to enable mobile devices to extend their computing power and storage by offloading computation or data to more powerful servers located in the cloud or in single-hop proximity.  One obvious application area is (?) - <font color="red">augmented reality computing</font>. Cloudlets are essentially small, flexible data centres that can be quickly provisioned 
 
@@ -30,15 +30,15 @@ Need for local, low-latency processing → tactics → processing task done wi
 
 # Tactics
 
-![tactic legend](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/grace_legend.png)
+![tactic legend](img/grace_legend.png)
 
 ## Computation staging
 
-![](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/grace_offload.png)
+![](img/grace_offload.png)
 
 ## Data Staging
 
-![](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/grace_sample_tactic.png)
+![](img/grace_sample_tactic.png)
 
 ## AgroTempus Case Study
 
@@ -46,11 +46,11 @@ One need in countries with weaker national connectivity is to support data inten
 
 [AgroTempus](http://reuelbrion.github.io/AgroTempus/) is a case study that looks at support for doing this. 
 
-![](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/atsetup.png)
+![](img/atsetup.png)
 
 As a research project, the authors looked at how the system could be implemented using the cyber-foraging tactics below. Like the SKA project, AgroTempus ran experiments to see if the tactics made sense for the system. E.g., to test data offload, the code implements weather forecasting by offloading data to the mobile hub, then performing the calculation, then sending the simple prediction back to the mobile device. 
 
-![tactics for cyber-foraging, completed](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/cyber-forage_tactics.png)
+![tactics for cyber-foraging, completed](img/cyber-forage_tactics.png)
 
 # Functional Tactics
 
