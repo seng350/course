@@ -141,7 +141,5 @@ One thing to take-away from this emerging area is simply this. Software is an ev
 # References
 
 * NIST, [Fog Computing standard](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-325.pdf)
-<<<<<<< HEAD
 * Lewis et al., [A tale of three systems: Case studies on the application of architectural tactics for cyber-foraging](https://www.sciencedirect.com/science/article/pii/S0167739X18312834)
-=======
->>>>>>> a475569378241160a507ade2e1c60e5b9563d460
+
