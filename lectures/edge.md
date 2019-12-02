@@ -30,15 +30,15 @@ Need for local, low-latency processing → tactics → processing task done wi
 
 # Tactics
 
-![tactic legend](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/grace_legend.png)
+![tactic legend](img/grace_legend.png)
 
 ## Computation staging
 
-![](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/grace_offload.png)
+![](img/grace_offload.png)
 
 ## Data Staging
 
-![](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/grace_sample_tactic.png)
+![](img/grace_sample_tactic.png)
 
 ## AgroTempus Case Study
 
@@ -46,7 +46,7 @@ One need in countries with weaker national connectivity is to support data inten
 
 [AgroTempus](http://reuelbrion.github.io/AgroTempus/) is a case study that looks at support for doing this. 
 
-![](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/atsetup.png)
+![](img/atsetup.png)
 
 As a research project, the authors looked at how the system could be implemented using the cyber-foraging tactics below. Like the SKA project, AgroTempus ran experiments to see if the tactics made sense for the system. E.g., to test data offload, the code implements weather forecasting by offloading data to the mobile hub, then performing the calculation, then sending the simple prediction back to the mobile device. 
 
@@ -90,7 +90,8 @@ Here's an application of "outbound preprocessing" to the Gigasight design:
 
 ## Tactics Tree
 
-![tactics for cyber-foraging, completed](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/cyber-forage_tactics.png)
+![tactics for cyber-foraging, completed](img/cyber-forage_tactics.png)
+
 
 # Functional Tactics
 
@@ -140,4 +141,7 @@ One thing to take-away from this emerging area is simply this. Software is an ev
 # References
 
 * NIST, [Fog Computing standard](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.500-325.pdf)
+<<<<<<< HEAD
 * Lewis et al., [A tale of three systems: Case studies on the application of architectural tactics for cyber-foraging](https://www.sciencedirect.com/science/article/pii/S0167739X18312834)
+=======
+>>>>>>> a475569378241160a507ade2e1c60e5b9563d460
