@@ -128,11 +128,13 @@ This is a check-in milestone, to ensure code is being written.
 - As in iteration 1/2
 
 ## 5. Final Demo 
-During the last week of class, demo your final project, and walk us through the code/design. In lab. 
+During the last week of class, demo your final project, and walk us through the code/design. In lab, ~10 mins.
 
 Walk us through your user stories and QAS, and briefly explain your development process. The demo should have a script to save time and keep organized. 
 
 Be prepared to explain how your project works from a design perspective, and what key challenges you faced.
+
+We will ask about the 7 QAS and 7 User stories, so be prepared to explain those. Deprecate user stories and QAS that won't apply on Github.
 
 ### Deliverables
 
