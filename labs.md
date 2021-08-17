@@ -3,11 +3,14 @@
 | Week | Topic |
 |-----|-----|
 |  1 | no labs |
-| 2 | [Typescript](labs/Lab_1_Introduction_to_TypeScript_and_WebStorm.md) |
-| 3| [Web apps](labs/Lab_2_-_Web_app_development.md) |
-| 4 | [Restful APIS/Databases](labs/Lab_3_RESTful_APIs_and_Database.md) |
-|5 | Design office hours & work on M2 |
-| 6 | [Docker](labs/docker.md) |
-| 7 | DockerHub and Travis | 
-| 8-12 | Group work |
-<!--| | Express | -->
+| 2 | Week 2: Accessing resources on Github. Pull requests. Form teams |
+| 3| Week 3:  [Docker](labs/docker.md). Build tools: SBT, Yarn, Maven, Gradle |
+| 4 | Week 4: SA: Browsing source code in an IDE |
+|5 | Week 5: SA: Call graph analysis. |
+| 6 | Week X : |
+| 7 | Week 6: Debugging and dynamic analysis |
+|  | Week 7: Documentation generation |
+|  | Week 8: SA: Code analysis tools |
+|  | Week 9: Reverse engineering and model generation - diagram tools. |
+|  | Week 11: Project summaries |
+|  | Week 12: Project summaries |
