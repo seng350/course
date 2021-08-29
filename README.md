@@ -3,13 +3,7 @@
 
 ## Schedule and Topics
 
-The following schedule is subject to change. All deadlines and due dates listed here are the official dates. 
-
-See the [schedule so far](lectures/img/semester-plan.png)
-
-This semester I'm doing the schedule differently. Instead of detailed day by day schedules, I'll list the main modules, the slides, and then key dates. Modules are sequential, and I aim to do one module per week. If you miss a class, I assume you can figure out what you missed. If not, see your classmates. 
-
-Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard MR/TWF schedule). Class is in Cornett A221. Labs are in ELW B238.
+See the schedule on Brightspace for quizzes and project milestones.
 
 ### Modules
 
@@ -28,28 +22,6 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 | 4 | [Architecture Tactics - Performance](lectures/performance.md) |  | Text chapter 8 |
 | 8  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
-
-### Key Dates
-| Event | Deadline |
-|-----|-----|
-| Project: M0 | September 13 |
-| Project: M1 | September 25 |
-| Quiz 1 | September 18 |
-|  Quiz 2 | Sept 30 |
-| Project: M2 | Oct <s>4</s> 11 |
-|  Thanksgiving Day | **Oct 14** |
-| Project M3| Oct 25 |
-|  Midterm  | **Oct 31** |
-|  Quiz 3  | <s>Nov 7</s> **Nov 18** |
-| Reading Break | Nov 11-13 (no class) |
-| Project M3.5 | Nov 15 |
-|  Quiz 4  | **Nov 25** |
-|  Quiz 5 | **Dec 2** |
-| Project M5: demos and code reviews | Dec 3 and 4 |
-| Project M4 | Midnight, **Dec 6**, in repo tagged 'final' |
-| Last class | Dec 2 (no class Dec 4, demos in lab) |
-| Project: M6 | Dec 11 midnight |
-
 ### Lab Schedule
 * [Lab schedule](labs.md)
 
@@ -60,14 +32,13 @@ Lectures are **M,W,Th 3:30pm-4:30pm** (note, this is off cycle for the standard 
 
 ### Past versions:
 
-* somewhere in the vast abyss of unrecoverable knowledge that is Connex/Coursespaces
+* See repo history tag "Fall2019"
 
 ## Instructors
 * [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours Wed 11:30-12:30 & 2:30-3:30, or by appt.
-* [Alvi Mahadi]() - B03 (Wed)
-* Paramvir Singh - B01/02 (Tuesday)
+* TBD
 
-Please use Slack to message the TAs first.
+Please use Brightspace to message the TAs first.
 
 ## Course Overview
 Software is a long-lived and complex thing. This course is about understanding software in the large. 
@@ -97,37 +68,23 @@ It's very hard to get good at anything without practice, and software design is 
 
 Software design is a naturally abstract topic that needs to be applied to make any sense. The recipe for success in SENG 350 is to regularly prepare for lectures by doing the required readings in advance, attending the lectures and participating in the design and coding walk-throughs, then completing the related exercises as soon as possible. If you do this you may be pleased to discover that the material will grow on you almost subconsciously. The recipe for failure is to await the midterms and final, then furiously attempt to memorize the book and lecture material. Please opt for success.
 
-## Deliverables
-The class will use [Github](https://github.com/SENG350) and [Slack](https://seng350.slack.com/signup). Students will have to register their Github username (either a permanent one or a throwaway) with the instructors. Those with an objection to using Github or Slack, please contact the instructor for workarounds. All Github activity is private to the class organization. Please see the privacy notice on the Connex site.
+## Operational Details
 
-[Slack](https://seng350.slack.com) will be the primary mechanism used for communication in the class. My rationale (apart from being tools used in practice) is to expose the class as a whole to questions about assignment and lectures.  Please use the `general_2019` channel for discussion, as this Slack gets re-used year to year.
+The class will use Brightspace to submit assignments and post grades, host videos, and facilitate discussion. Class notes are on Github. 
 
-Grades are distributed via Connex for privacy compliance.
+Please be aware our session is being recorded to allow students who are not able to attend to watch later. The recording will be posted in Brightspace. Students who have privacy concerns can contact me and may have the option to limit their personal information shared in the recording. If you have other questions or concerns regarding class recording and privacy please contact privacyinfo@uvic.ca.
 
 University and department policies on professional conduct and integrity are applicable. Feel free to see me in person, or via UVic email, for personal questions.
 
 ## Marking Overview
-The final mark is weighted as following:
-- 25% midterm,
-- 10% participation,
-- 10% quizzes
-- 55% substantial group project
 
-### Participation
-10%, based on class attendance, lab attendance, and activity in Github and Slack. Project participation marks are marked separately and over/under-weight your group's mark.
+Available on HEAT:
 
-### Project
-One group project, 55% of the mark. Group project marks are scaled according to individual performance. This is assessed by instructor observation and peer evaluation.
-
-### Midterms
-Oct 31, 25% (tentative)
-
-You must pass both the midterm and project to pass the course.
-### Quizzes
-5 short inclass quizzes will be used to gauge understanding of the material.
-
-### Final
-There is no final.
+| **Coursework** | **Weight (out of 100%)** |
+| :------------- | :----------------------- |
+| 5 Quizzes      | 10%                      |
+| Midterm Exams  | 30%                      |
+| Project        | 60%                      |
 
 ## Resources
 
@@ -136,9 +93,10 @@ There is no final.
 3. [Github bootcamp](https://help.github.com/articles/set-up-git/)
 
 ### Books
-* SEI Software Architecture in Practice, Len Bass, Paul Clements, Rick Kazman. 3rd Edition. 2013.
+* SEI Software Architecture in Practice, Len Bass, Paul Clements, Rick Kazman. <s>3rd</s> 4th Edition. 2021
 
 ### Other texts
+
 * Design It! From Programmer to Software Architect, by Michael Keeling, Pragmatic Programmers 2017.
 * Just Enough Software Architecture, by George Fairbanks, Marshall and Brainerd, 2010.
 * Documenting Software Architectures, by Paul Clements et al., Addison-Wesley, 2011.
@@ -148,5 +106,4 @@ There is no final.
 * Essential Software Architecture, by Ian Gorton, Springer, 2011.
 * Software Architecture: Perspectives on an emerging discipline, Mary Shaw and David Garlan, Prentice-Hall, 1996.
 * Architecture of Open-Source Applications, Amy Brown and Greg Wilson, eds. http://aosabook.org
-
 
