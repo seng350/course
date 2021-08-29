@@ -35,7 +35,7 @@ See the schedule on Brightspace for quizzes and project milestones.
 * See repo history tag "Fall2019"
 
 ## Instructors
-* [Neil Ernst](http://neilernst.net), instructor. Room ECS 560, office hours Wed 11:30-12:30 & 2:30-3:30, or by appt.
+* [Neil Ernst](http://neilernst.net), instructor. Office hours on Zoom Tuesday 12:20-2:30 or by appt.
 * TBD
 
 Please use Brightspace to message the TAs first.
