@@ -12,15 +12,33 @@ See the schedule on Brightspace for quizzes and project milestones.
 | 1 |   [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) | | text chapter 1  |
 | 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | [cost of change](http://www.agilemodeling.com/essays/costOfChange.htm) • [arch role](https://raw.githubusercontent.com/seng350/course/master/lectures/img/add3.jpg) • [Boehm cost curve](lectures/img/How-Much-Architecting-is-Enough.png) | text chapter 2 • [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/) • [node module problems](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/); |
 |3 |  [Architecture Stakeholders and Quality Attributes](https://github.com/SENG350/course/blob/master/lectures/4-req.md). | | text chapter 16  |
-| 5 | [Views on Architecture - Modules](https://github.com/SENG350/course/blob/master/lectures/5-modules.md) | | text chapter 18 |
-| 6 | [Views on Architecture - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) | [SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View) | text chapter 4 |
-| 6 | [Views on Architecture - Allocation](https://github.com/SENG350/course/blob/master/lectures/allocation_jens.pdf) |  [Pizza model](https://m.oursky.com/saas-paas-and-iaas-explained-in-one-graphic-d56c3e6f4606) | text chapter 18 |
-| 7 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) • [OO Principles](lectures/ooprinciples.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | [HomeAssistant sections 0-5](home_assistant_arch.pdf) • text chapter 17  |
-| 4 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 13, quality attribute chapters 5 |
-| 4 | [Architecture Tactics - Modifiability](lectures/modifiability.md) | [Ambler CRC](http://www.agilemodeling.com/artifacts/crcModel.htm) | text chapter 7 |
-| 4 | [Architecture Tactics - Privacy](lectures/privacy.md) | [Privacy Patterns](https://privacypatterns.org/) | none |
-| 4 | [Architecture Tactics - Performance](lectures/performance.md) |  | Text chapter 8 |
-| 8  | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
+| 4 | Abstractions | | [Fairbanks](https://www.georgefairbanks.com/e-book/)  chapter 10/11 |
+| 5 | [Architecture Views & Styles](https://github.com/SENG350/course/blob/master/lectures/5-modules.md) • [Views on Architecture - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) |[SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View)  | text chapter 18, 4 |
+| 6 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) • [OO Principles](lectures/ooprinciples.md) • [Design Patterns]() | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | [HomeAssistant sections 0-5](home_assistant_arch.pdf) • text chapter 17  |
+| 7 | [Programming Styles]() | | Lopes ["Exercises in Programming Style"](https://learning-oreilly-com.ezproxy.library.uvic.ca/library/view/exercises-in-programming/9781482227376/cover.xhtml) (Uvic access required)|
+| 8 | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
+
+For module 7, readings are 
+Prologue
+Chapter 3, Monolithic
+Chapter 4, Cookbook
+Chapter 7, Infinite Mirror
+Chapter 16, Introspective
+Chapter 17, Reflective
+Chapter 18, Aspects
+Chapter 25, Persistent Tables
+Chapter 26, Spreadsheet
+Chapter 27, Lazy Rivers
+Chapter 28, Actors
+
+We will also cover these specific architecture tactics if time permits.
+| Module | Topics | Other Resources | Readings  |
+|---| --------------------------------------------------------- | --------- | ----------------|
+| A1 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 13, quality attribute chapters 5 |
+| A2 | [Architecture Tactics - Modifiability](lectures/modifiability.md) | [Ambler CRC](http://www.agilemodeling.com/artifacts/crcModel.htm) | text chapter 7 |
+| A3 | [Architecture Tactics - Privacy](lectures/privacy.md) | [Privacy Patterns](https://privacypatterns.org/) | none |
+| A4 | [Architecture Tactics - Performance](lectures/performance.md) |  | Text chapter 8 |
+
 
 ### Lab Schedule
 * [Lab schedule](labs.md)
@@ -86,19 +104,20 @@ Available on HEAT:
 | Midterm Exams  | 30%                      |
 | Project        | 60%                      |
 
-## Resources
+Project details and the quizzes are on Brightspace. Quizzes will be completed on Brightspace so please bring something with internet access on those days.
 
-1. [Slack](https://seng350.slack.com)
-2. [Github help pages](https://help.github.com)
-3. [Github bootcamp](https://help.github.com/articles/set-up-git/)
+## Resources
 
 ### Books
 * SEI Software Architecture in Practice, Len Bass, Paul Clements, Rick Kazman. <s>3rd</s> 4th Edition. 2021
+* Exercises in Programming Style, Crista Lopes, 2015 (there's a new version as well, but we have access to the first)
+* [Just Enough Software Architecture](https://www.georgefairbanks.com/e-book/), by George Fairbanks, Marshall and Brainerd, 2010.
+
+I will provide licenced versions of the last 2.
 
 ### Other texts
 
 * Design It! From Programmer to Software Architect, by Michael Keeling, Pragmatic Programmers 2017.
-* Just Enough Software Architecture, by George Fairbanks, Marshall and Brainerd, 2010.
 * Documenting Software Architectures, by Paul Clements et al., Addison-Wesley, 2011.
 * Designing Software Architecture, A Practical Approach, by Humberto Cervantes and Rick Kazman, Addison-Wesley 2017.
 * Software Systems Architecture: Working with Stakeholders Using Viewpoints and Perspectives, by Nick Rosanski and Eoin Woods, Addison-Wesley, 2011.
