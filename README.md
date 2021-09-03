@@ -3,18 +3,19 @@
 
 ## Schedule and Topics
 
-See the schedule on Brightspace for quizzes and project milestones.
+See the schedule on Brightspace for quizzes and project milestones. All submissions occur on Brightspace. Videos are posted on Brightspace in the Echo360 section. 
 
 ### Modules
 
 | Module | Topics | Other Resources | Readings  |
 |---| --------------------------------------------------------- | --------- | ----------------|
-| 1 |   [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) | | text chapter 1  |
+| 1 | [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) • [Reading Code](lectures/3-reading.md) | | text chapter 1  |
 | 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | [cost of change](http://www.agilemodeling.com/essays/costOfChange.htm) • [arch role](https://raw.githubusercontent.com/seng350/course/master/lectures/img/add3.jpg) • [Boehm cost curve](lectures/img/How-Much-Architecting-is-Enough.png) | text chapter 2 • [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/) • [node module problems](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/); |
-|3 |  [Architecture Stakeholders and Quality Attributes](https://github.com/SENG350/course/blob/master/lectures/4-req.md). | | text chapter 16  |
-| 4 | Abstractions | | [Fairbanks](https://www.georgefairbanks.com/e-book/)  chapter 10/11 |
+|3 |  [Architecture Stakeholders and Quality Attributes](https://github.com/SENG350/course/blob/master/lectures/4-req.md) | | text chapter 16  |
+| 4 | [Abstractions](lectures/abstraction.md) | | [Fairbanks](https://www.georgefairbanks.com/e-book/) chapter 10.1-10.5 inclusive, 11 all |
 | 5 | [Architecture Views & Styles](https://github.com/SENG350/course/blob/master/lectures/5-modules.md) • [Views on Architecture - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) |[SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View)  | text chapter 18, 4 |
-| 6 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) • [OO Principles](lectures/ooprinciples.md) • [Design Patterns]() | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | [HomeAssistant sections 0-5](home_assistant_arch.pdf) • text chapter 17  |
+| 6 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) • [OO Principles](lectures/ooprinciples.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | [HomeAssistant sections 0-5](home_assistant_arch.pdf) • text chapter 17  |
+| 7 | [Design Patterns](lectures/patterns.md) | [Head-first design patterns](https://www-oreilly-com.ezproxy.library.uvic.ca/library/view/head-first-design/9781492077992/) | [DesignPatterns paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.44.9717) • source code |
 | 7 | [Programming Styles]() | | Lopes ["Exercises in Programming Style"](https://learning-oreilly-com.ezproxy.library.uvic.ca/library/view/exercises-in-programming/9781482227376/cover.xhtml) (Uvic access required)|
 | 8 | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
@@ -113,13 +114,12 @@ Project details and the quizzes are on Brightspace. Quizzes will be completed on
 * Exercises in Programming Style, Crista Lopes, 2015 (there's a new version as well, but we have access to the first)
 * [Just Enough Software Architecture](https://www.georgefairbanks.com/e-book/), by George Fairbanks, Marshall and Brainerd, 2010.
 
-I will provide licenced versions of the last 2.
-
 ### Other texts
 
 * Design It! From Programmer to Software Architect, by Michael Keeling, Pragmatic Programmers 2017.
 * Documenting Software Architectures, by Paul Clements et al., Addison-Wesley, 2011.
 * Designing Software Architecture, A Practical Approach, by Humberto Cervantes and Rick Kazman, Addison-Wesley 2017.
+* Continuous Architecture in Practice, Erder, Pureur, Woods, Pragmatic Press, 2020.
 * Software Systems Architecture: Working with Stakeholders Using Viewpoints and Perspectives, by Nick Rosanski and Eoin Woods, Addison-Wesley, 2011.
 * Applied Software Architecture, Christine Hofmeister, Rod Nord, Dilip Soni, Addison-Wesley, 2000. 
 * Essential Software Architecture, by Ian Gorton, Springer, 2011.
