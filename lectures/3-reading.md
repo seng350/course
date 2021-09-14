@@ -1,7 +1,7 @@
 ---
 Title: Module  3
 Author: Neil Ernst
-Date: Jan 21, 2019
+Date: Sep 2021
 ---
 
 # Reading and Understanding Code
@@ -107,7 +107,8 @@ We discussed some of our past approaches to code reading.
 
 These do what you would expect: begin by tracing the code at a low level; begin by looking at package and file organization; or begin by picking an interesting question (where does the credit card get sent?). Researchers have shown that we do all three when it comes to understanding programs.
 
-# How Many People Did the Reading?
+# Web Crawler Code
+
 We broke into teams to read the code for a piece of the system, and had a group discussion about what we learned.
 
 (then we walked through http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html)
