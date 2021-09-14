@@ -5,7 +5,7 @@ The labs are intended to give you and your team a broad overview of the relevant
 | Week | Topic |
 |-----|-----|
 |  1 | no labs |
-| 2 | [Accessing resources on Github. Pull requests.](github.md) Form teams. |
+| 2 | [Accessing resources on Github. Pull requests.](labs/github.md) Form teams. |
 | 3| [Docker](labs/docker.md). Build tools: SBT, Yarn, Maven, Gradle |
 | 4 |Static Analysis: Browsing source code in an IDE |
 |5 | SA: Call graph analysis and [source visualization](https://octo.github.com/projects/repo-visualization) |
