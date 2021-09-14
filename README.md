@@ -9,7 +9,7 @@ See the schedule on Brightspace for quizzes and project milestones. All submissi
 
 | Module | Topics | Other Resources | Readings  |
 |---| --------------------------------------------------------- | --------- | ----------------|
-| 1 | [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) • [Reading Code](lectures/3-reading.md) | | text chapter 1  |
+| 1 | [What is Software Architecture?](https://github.com/SENG350/course/blob/master/lectures/1-intro.md) • [Reading Code](lectures/3-reading.md) | [500L Web Server](http://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html) and [src](https://github.com/aosabook/500lines/tree/master/web-server/code) | text chapter 1  |
 | 2 |  [Software arch overview](https://github.com/SENG350/course/blob/master/lectures/2-arch.md) | [cost of change](http://www.agilemodeling.com/essays/costOfChange.htm) • [arch role](https://raw.githubusercontent.com/seng350/course/master/lectures/img/add3.jpg) • [Boehm cost curve](lectures/img/How-Much-Architecting-is-Enough.png) | text chapter 2 • [Architect Roles Map](https://eltjopoort.nl/blog/2019/06/25/a-map-to-waterfall-wasteland-and-the-agile-outback/) • [node module problems](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/); |
 |3 |  [Architecture Stakeholders and Quality Attributes](https://github.com/SENG350/course/blob/master/lectures/4-req.md) | | text chapter 16  |
 | 4 | [Abstractions](lectures/abstraction.md) | | [Fairbanks](https://www.georgefairbanks.com/e-book/) chapter 10.1-10.5 inclusive, 11 all |
