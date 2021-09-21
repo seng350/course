@@ -6,7 +6,7 @@ The labs are intended to give you and your team a broad overview of the relevant
 |-----|-----|
 |  1 | no labs |
 | 2 | [Accessing resources on Github. Pull requests.](labs/github.md) Form teams. |
-| 3| [Docker](labs/docker.md) & [Build tools](build.md): Maven, Gradle. Begin building the projects. |
+| 3| [Docker](labs/docker.md) & [Build tools](labs/build.md): Maven, Gradle. Begin building the projects. |
 | 4 |Static Analysis: Browsing source code in an IDE |
 |5 | SA: Call graph analysis and [source visualization](https://octo.github.com/projects/repo-visualization) |
 | 6 |Debugging and dynamic analysis |
