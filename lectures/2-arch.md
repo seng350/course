@@ -153,6 +153,8 @@ If we shorten feedback cycles, we get quicker information to make changes, and t
 
 TPS: What structures do we care about (read: want to be able to reason and ask questions about) when we want to replace a Bridge? 
 
+![width:500px](img/blue-bridge-new-bridge.jpg)
+
 ----
 
 - **Physical structures** - can the bridge support traffic, not break down, not cost too much to maintain? 
@@ -188,7 +190,9 @@ In the SAIP approach, the main categories of software structures are:
 
 # Communication vs Documentation
 
-We need to keep in mind, as we seek to document and understand the system, why we are doing this. After all, our time is not free - we could be doing other things. We only document something if it is worth the cost. In this course, naturally the cost is near-infinite for *not* documenting (you fail), but in practice it is a more difficult decision. A colleague and I once spent 7 days at a  company site to help them document their large-scale, high-performance system with 20 other people. It was worth the cost. But even there, after 7 days, we could only make a small dent in the overall system complexity. 
+We need to keep in mind, as we seek to document and understand the system, why we are doing this. After all, our time is not free - we could be doing other things. **We only document something if it is worth the cost.** 
+
+In this course, naturally the cost is near-infinite for *not* documenting (you fail), but in practice it is a more difficult decision. A colleague and I once spent 7 days at a  company site to help them document their large-scale, high-performance system with 20 other people. It was worth the cost. But even there, after 7 days, we could only make a small dent in the overall system complexity. 
 
 ----
 
@@ -205,7 +209,7 @@ We need to keep in mind, as we seek to document and understand the system, why w
 (source: Documenting Software Architectures, Bass et al. 2011)
 
 ---
-# Exercise
+<!-- # Exercise
 
 In teams of 3-4 students, take the following systems and analyze the architecture (as you perceive it).
 
@@ -218,8 +222,8 @@ At the end of the session, be prepared to present your findings and report to th
 1. Why is this the architecture for this project?
 2. What advantages or disadvantages do you see in the architecture?
 3. How did you find or uncover the architecture you did? What steps did you take?
+-->
 
-----
 
 # References
 
