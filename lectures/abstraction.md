@@ -5,6 +5,8 @@ date: Aug 24, 2021
 marp: true
 ---
 # Abstractions
+Based on original notes from Thomas Latoza (GMU).
+
 ----
 
 # What is an Abstraction?

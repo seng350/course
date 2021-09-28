@@ -1,7 +1,7 @@
 ---
 marp: true
 title: Module  4 - Stakeholders and Requirements
-author: Neil Ernst
+author: Neil Erns
 ---
 # Stakeholders and Requirements
 ----
@@ -118,10 +118,7 @@ Let's think about how we do design and/or architecture. Design is the process of
 
 ----
 
-For your project, M1 asks you to provide
-
-- The list of ASRs
-- A set of user stories
+ASRs are important forcing functions for architecture decision-making. One piece of evidence you should use in M1 are the important ASRs that the decision considered.
 
 In order to find the ASRs, you should think about what an architect would do in a "rational design process". Which they may not have followed, of course.
 
@@ -174,7 +171,15 @@ As I briefly state the business case, write down things you feel are important a
 ----
 
 ## Business Presentation
-Twitter is a company that sells advertising from third-parties to people who consume the ads as part of a social network. The network functions include the ability to view other people's tweets, post tweets, and store favorites. Recently, a wave of automated bots has hijacked the service to attack democratic institutions. A new architecture is going to make it easier for users to flag annoying bots, use ML to find potential bots, and coordinate with a new media campaign to highlight the new approach.
+<!-- Twitter is a company that sells advertising from third-parties to people who consume the ads as part of a social network. The network functions include the ability to view other people's tweets, post tweets, and store favorites. Recently, a wave of automated bots has hijacked the service to attack democratic institutions. A new architecture is going to make it easier for users to flag annoying bots, use ML to find potential bots, and coordinate with a new media campaign to highlight the new approach. -->
+Canada's customs agents are responsible for (among other things) ensuring foods imported into Canada are safe for Canadians. 
+To do this they require importers to declare what they are importing. In some cases - like when the importer is new, or had previous issues - a physical inspection is conducted.
+
+Sorting out who the importers are is complex. They change business names, they have different offices, and the names may be in non-English or French character sets.
+
+We also want to ensure our partner agencies, for example at the provincial level, can easily access our data. 
+
+Keeping business flowing is a big concern. We do not want to block the border while we physically inspect every truck, train, and ship container. 
 
 ----
 
@@ -183,6 +188,22 @@ As I sketch the architecture approach, write down the key business goals and qua
 
 I sketched out a brief runtime architecture diagram.
 
+<!-- 
+A database of importers and firm names
+A UI for the front-end CBP staff.
+A ML component for smart inspections
+An API for external agencies to access information
+-->
+
+----
+## Architecture Questions
+To help identify the risks and drivers of this system, I want you to formulate some exposition questions you would have if you were helping to analyze this approach for its *technical* soundness. What questions would help find potential problems and omissions? 
+
+In groups of 3-4, 
+1. rapidly generate a list of questions. Don't stop to analyze the questions; just get a bunch on paper.
+2. Erase unpromising questions or scratch them off.
+3. Underline the most useful or exciting questions. 
+4. Prepare one of those to share with the class.
 
 ----
 ## Architecture Drivers
@@ -215,7 +236,7 @@ Scenarios have these parts (I have omitted portions of the SEI template not impo
 
 ----
 
-We then worked out a scenario in class to show the template. I am asking for three templates in M2. The textbook has good examples on the inside front cover. I would tell you that a QAS is like an acceptance test or system test. It allows you to see to what extent the proposed design will meet the scenario.
+We then worked out a scenario in class to show the template. The textbook has good examples on the inside front cover. I would tell you that a QAS is like an acceptance test or system test. It allows you to see to what extent the proposed design will meet the scenario.
 
 
 ----
