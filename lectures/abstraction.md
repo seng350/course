@@ -2,7 +2,9 @@
 title: Abstraction
 author: Neil Ernst/Thomas Latoza
 date: Aug 24, 2021
-marp: true
+mar$$
+
+$$p: true
 ---
 # Abstractions
 Based on original notes from Thomas Latoza (GMU).
@@ -145,4 +147,4 @@ A *leaky abstraction* is an abstraction in which the hidden details can leak out
 ----
 # Use An Abstraction
 * Pass your paper to another group. 
-* Now create an algorithm to 
+* Now create an algorithm to (tbd)

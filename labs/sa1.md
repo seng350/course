@@ -45,7 +45,7 @@ git log --pretty="format:%an %ar %s "
 Will show the recent commits with commit message, date, and author. StackOverflow usually has the answers to the syntax required for esoteric queries. Even better, pipe this into grep and you can keyword search the results. 
 
 5. Let's analyze the structure of the code using purpose built tools. Before the lab you should have installed one of the tools I mentioned. We will focus on CodeScene, but the basic ideas are similar for all of them. These static analysis tools focus on project health and code quality. CodeScene in particular is based on the book ["Your Code as a Crime Scene"](https://pragprog.com/titles/atcrime/your-code-as-a-crime-scene/) by Adam Tornhill. CodeScene is particularly focused on social code metrics, such as developer turnover, but has some useful visualizations for understanding the scope of the system. 
-6. You *may* need to configure the project first, as shown in this screen: ![](CodeScene.png)
+6. You *may* need to configure the project first, as shown in this screen: ![](codescene.png)
 
 That helps prevent analyzing files we don't know much about like .xml. 
 
