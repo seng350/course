@@ -5,6 +5,7 @@ marp: true
 ---
 # OpenMPI
 
+- middleware
 - what is it? It is itself an abstraction! 
 - Message Passing Interfaces abstract the guts (mostly - see below) of high performance networking operations.
 > Roadrunner has a total of 12,960 PowerXCell processors, with 12,960 PPE cores and 103,680 SPE cores, for a total of 116,640 cores.
@@ -33,7 +34,7 @@ What are the ASRs for MPI scenarios? Parallel computing and high performance aka
 - use plugins for extensibility
 - keep focus on performance
 - optimize for the common case
-- 
+  
 ----
 # Arch - modules
 ![](img/open-mpi-layers.png)
@@ -44,7 +45,7 @@ What are the ASRs for MPI scenarios? Parallel computing and high performance aka
 
 ----
 # Hatful of MPI Quotes
-I will give you each a quote from the AOSA chapter. Working with your neighbour, consider what abstractions are being discussed or could help. Evaluate the abstraction on the criteria from previously, and if possible, track down a place in the source code or standard where you can see that working. 
+I will give you each a quote from the AOSA chapter. Working with a neighbour, consider what abstractions are being discussed or could help. Evaluate the abstraction on the criteria from previously. What do you think about the OpenMPI use of this abstraction?  
 
 Then share with the class your thoughts on how this abstraction works - both for the implementers (ie. the MPI devs) and users. 
 
