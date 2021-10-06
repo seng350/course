@@ -3,6 +3,7 @@ title: Module  5 - Module Views
 author: Neil Ernst
 marp: true
 date: Sep 2021
+paginate: true
 ---
 # Module Structures 
 
@@ -80,19 +81,26 @@ In the textbook world, there are three key sets of structures we need to create 
 We'll focus on the first two for now; I'll talk about allocation views more when we discuss capturing operations. 
 
 ----
-We reason about our system using its **structures**. There are 3 main view **types** with different views possible in each. A **view** reflects a particular structure of interest; a view may be composed of different **styles**. Each style imposes constraints on the view topology (e.g. no circular relationships) and relevant properties (always *name*, but perhaps *strength of relationship*, *responsibilities*, etc.)
+# Reasoning
+* We reason about our system using its **structures**. There are 3 main view **types** with different views possible in each. 
+* A **view** reflects a particular structure of interest; 
+  * a view may be composed of different **styles**. 
+* Each style imposes constraints on the view topology (e.g. no circular relationships) and relevant properties (always *name*, but perhaps *strength of relationship*, *responsibilities*, etc.)
 
 ----
-A system's documentation will consist of some instances of the 3 view types, plus some information that ties the views together. Again, we should be able to answer questions about quality attribute scenarios using the documentation package we provided. In other words, with only this set of documents, you should be able to answer all the technical questions that e.g. the CIO might have for you.
+# Capturing the Architecture
+A system's documentation will consist of some instances of the 3 view types, plus some information that ties the views together. Again, we should be able to answer questions about quality attribute scenarios using the documentation package we provided. 
+
+In other words, with only this set of documents, you should be able to answer all the technical questions that e.g. the CIO might have for you.
 
 ----
-## Module Views (p. 332)
+## Module Views (p. 332 of SAIP)
 *Elements:* modules, implementation units of software with a coherent set of responsibilities.
 *Relations*: typically *part of*, *depends on*, *is-a*
 *Usage*: change impact analysis, incremental development, work assignment, information structures
 
 ----
-### Why We Care - questions Module views can answer
+## Why We Care - analysis questions Module views can answer
 
 * Construction blueprints
 * Analysis of impact and changes
@@ -161,7 +169,11 @@ Like design patterns, which I'm sure you all know and love, an architectural sty
 At a conference like SATURN, QCon, O'Reilly <whatever>Con, she lets other devs know about the approach. Through a combination of side channel discussions and blog posts etc., the solution gets encoded into a best practice, refined by others, and eventually told to students.
 
 ----
-Unlike a "pattern", we usually think of a "style" as just capturing the solution, without the problem context. You can find styles in a variety of ways: videos of conference talks (e.g., [CQRS](https://www.youtube.com/watch?v=EqpalkqJD8M)), style catalogs ([PoSA](https://www.amazon.ca/Pattern-Oriented-Software-Architecture-System-Patterns/dp/0471958697)), and blog posts. As usual in engineering, someone has probably seen your problem before. And if not, you can likely re-use a solution for at least part of your problem. A good engineer is constantly re-educating herself.
+Unlike a "pattern", we usually think of a "style" as just capturing the solution, without the problem context. 
 
-The styles we will talk about in this course are pure instances of a style; in reality, a view will often combine different styles e.g. showing decomposition within layers. 
+You can find styles in a variety of ways: videos of conference talks (e.g., [CQRS](https://www.youtube.com/watch?v=EqpalkqJD8M)), style catalogs ([PoSA](https://www.amazon.ca/Pattern-Oriented-Software-Architecture-System-Patterns/dp/0471958697)), and blog posts. 
+
+Often in engineering, someone has seen your type of problem before. And if not, you can likely re-use a solution for at least part of your problem. A good engineer is constantly re-educating herself.
+
+The styles we will talk about in this course are *pure instances of a style*; in reality, **a view will often combine different styles** e.g. showing decomposition within layers. 
 

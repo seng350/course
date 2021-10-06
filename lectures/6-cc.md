@@ -1,37 +1,31 @@
 ---
 Title: Module  6 - C&C Views
 Author: Neil Ernst
+marp: true
 ---
-
+ 
 # Representing Views
 
-The style we chose (layers, uses, etc) are often thought of as primary presentations. A primary presentation is the graphical representation of the view, but does not in itself constitute documentation. What are some of the problems with doing it that way?
+The style we chose (layers, uses, etc) are often thought of as **primary presentations**. A primary presentation is the graphical representation of the view, but does not in itself constitute documentation. What are some of the problems with doing it that way?
 
-They include not disambiguating various elements of the diagram; missing rationale; missing data points that help answer e.g. latency questions, capturing strange cases like shutdown behavior, and other items that would clutter or confuse the diagram. 
+----
+They include 
+- not disambiguating various elements of the diagram; 
+- missing rationale; 
+- missing data points that help answer e.g. latency questions, 
+- capturing strange cases like shutdown behavior, 
+- and other items that would clutter or confuse the diagram. 
 
 There is a strong argument to be made that this information *should* be on the diagram itself. In many situations, all you get is a 10 slide Powerpoint deck with a bunch of diagrams. It sure would help to have more details. 
 
-![Simon Brown convo](img/simon-diagrams.png)
 
-We mentioned earlier that good documentation follows some standard organization. Think about your project. These are chapters in a bigger book. It sure would help readers if every chapter followed the same structure. 
-
-While I present one approach for capturing information on a view, there are other approaches equally viable (and the DelftSWA course show one other approach). 
-
-This is from Fig 18.3 in the text (3rd ed). You can find this and a [fully worked example here](https://wiki.sei.cmu.edu/sad/index.php/Template:ViewTemplate). [An example of a 'uses view'](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View). 
-
-![SEI view template](img/view-template.png)
-
-The first section is the primary presentation. 
-
-Next, we describe the elements in the primary presentation. We need to list what they are and how they are related. The next two sections are critical for the "blueprint" view of the documentation. We should capture how these elements connect to one another; at its most basic this is an API specification (method name, parameters, return values, semantics). We also need to capture the ways these elements behave at runtime. This might be a statechart showing all possible interactions, or a trace of behavior (e.g. a sequence diagram). We will discuss both of these later in the course. 
-
-We will show a context diagram, putting this view in the context of the entire system, and external systems it interacts with. The *variability guide* will explain to readers where things can change in the system. Finally, rationale will explain why this view is the way it is. We describe decisions made (and why), alternatives considered, obstacles, etc.
-
+----
 # Component and Connector Views (p. 332)
-*Elements*: components: principal units of runtime interaction and data stores and connectors: interaction mechanisms
-*Relations*: attachment of components’ ports to connectors’ roles (interfaces with protocols)
+*Elements*: **components**: principal units of runtime interaction and data stores and connectors: interaction mechanisms
+*Relations*: **attachment** of components’ ports to connectors’ roles (interfaces with protocols)
 *Properties*: name, relevant QA
 
+----
 ## Why We Care - questions C&C views can answer
 * Specifying the behaviour that elements must exhibit
 * Show how the system "works"
@@ -41,6 +35,7 @@ We will show a context diagram, putting this view in the context of the entire s
 * Data Flows
 * Which parts of the system can run in parallel?
 
+----
 # Instances of C&C Views - Styles
 1. Pipe and Filter
 2. Client-Server
@@ -48,6 +43,7 @@ We will show a context diagram, putting this view in the context of the entire s
 4. Pub-Sub
 5. Service Oriented
 
+----
 # Pipe and Filter
 Show dataflow. Filters transform data and pass it along Pipes. Analyze system throughput, function composition.
 
@@ -57,6 +53,7 @@ Show dataflow. Filters transform data and pass it along Pipes. Analyze system th
 
 ![P&F example from Unix](img/unixpipe.png)
 
+----
 # Client-Server
 Shows modifiability and reuse possible in a 2 tier architecture. Analyze availability, connections expected, requests, interface needs.
 
@@ -66,9 +63,11 @@ Shows modifiability and reuse possible in a 2 tier architecture. Analyze availab
 
 ![Web scalability image](http://aosabook.org/images/distsys/imageHosting3.png)
 
+----
 # Exercise
-In your groups, create a client-server diagram for a multiplayer game like [DOTA](http://www.dota2.com/play/).
+With a partner, sketch a client-server diagram for a multiplayer game like [DOTA](http://www.dota2.com/play/) or Fortnite.
 
+----
 # Shared Data
 Read and write to a shared data store. Analyze data needs, identify who connects.
 
@@ -78,14 +77,23 @@ Read and write to a shared data store. Analyze data needs, identify who connects
 
 ![Package data](http://aosabook.org/images/packaging/pypi-workflow.png)
 
+----
 # Pub-Sub
-Decouple listeners from publishers. A very common pattern (e.g. Observer), it essentially wraps up asynchronous/callback architectures. Helps isolate consumers and producers, analyze decoupling and independence in your architecture.
+Decouple **listeners** from **publishers**. A very common pattern (e.g. Observer, which we look at later), it essentially wraps up asynchronous/callback architectures. Helps isolate consumers and producers, analyze decoupling and independence in your architecture.
 
 *Elements*: publisher and subscribers. Possibly the bus for distributing messages
 *Relations*: attachments.
 *Constraints*: who can listen, message semantics.
 
+----
 ![Bitbake, showing a combined view](http://aosabook.org/images/yocto/aosa3.jpg)
 
-# Services
-We'll cover services in a later lecture. 
+----
+# Services and Microservices
+Allows for easy interoperability based on common messaging layer. Use robust and proven architectural patterns (REST). [Microservices (e.g. at Netflix)](https://www.infoq.com/presentations/netflix-chaos-microservices/) are small, independent service providers that belong to a single organization.
+* *Elements*: service providers, service consumers, middleware
+* *Relations*: typically HTTP messages using the HTTP verbs (GET/POST/DELETE etc) but also SOAP/XML and others
+* *Constraints and challenges*: who can consume messages, authentication requirements, observability approach, duplication of functionality
+
+----
+![](https://www.honeycomb.io/wp-content/uploads/2018/10/netflix-microservices-traffic-flow-768x466.png)
