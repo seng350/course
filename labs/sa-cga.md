@@ -35,6 +35,8 @@ In general, proving any property about a program is undecidable, and so we canno
 
 OpenSSL is a critical security library for SSL communication over the internet. In 2014 a [bug](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160) was found in it that allowed buffer over-read, i.e. you could ask for more information than you should be getting, including other people's keys. The erroneous code was in [this commit](https://github.com/openssl/openssl/commit/96db9023b881d7cd9f379b0c154650d6c108e9a3).
 
+![](https://imgs.xkcd.com/comics/heartbleed_explanation_2x.png)
+
 Possible Preventions:
 
 - Risk analysis
