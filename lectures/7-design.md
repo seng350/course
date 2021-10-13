@@ -4,14 +4,15 @@ author: Neil Ernst
 date: Sep 2021
 marp: true
 ---
-
+# Design and Architecture 
 The purpose of this lesson is to acquire some idea of what software design is about. We will learn one (of many) approaches to designing software, ADD 3.0.
 
 ----
 # What is Design?
 We began with an exercise to brainstorm what we think "software design" is. We discussed design in programming assignments, and what design looked like for systems like Linux, Apache webserver, and the Space Shuttle.
 
-![width:500px](https://history.nasa.gov/computers/p114.jpg)
+----
+![width:800px](https://history.nasa.gov/computers/p114.jpg)
 
 ----
 I showed the NASA complexity video. It comes from the excellent [From the Earth to the Moon](https://en.wikipedia.org/wiki/From_the_Earth_to_the_Moon_(miniseries)) series, episode 1.
@@ -40,6 +41,7 @@ Projects exhibit aspects of all of these.
 ----
 ![runway](img/arch-runway.png)
 
+----
 Question: what makes a good design?
 
 Answer: the main Architecture drivers all address the important quality attribute scenarios! That is the point of the QAS module. Otherwise, it is hard for us to objectively state whether this approach is better or worse than another approach.
@@ -47,11 +49,24 @@ Answer: the main Architecture drivers all address the important quality attribut
 Challenge: sometimes the important scenarios are only visible in hindsight, or after a particular growth target is reached. 
 
 ----
+# Exercise
+ You have been tasked with designing an architecture that supports functionality of this kind: 
+ 
+> A unified management station for the building automation domain that automatically monitors and/or controls the internal functions of buildings, such as heating, ventilation, air conditioning, lighting, access, and safety.
+
+What next? Get together in teams and figure out your initial set of actions as the lead architecture team.
+
+```(after R. Sangwan, et al. 2007. “Integrating a Software Architecture-Centric Method into Object-Oriented Analysis and Design.”  Journal of Systems and Software.)```
+
+
+----
 The [Google File System](https://en.wikipedia.org/wiki/Google_File_System) was a design that served Google very well (e.g. availability, robustness, performance) but was eventually replaced with a new design, Colossus. 
 
-![GFS](img/GoogleFileSystemGFS.svg)
-
 > Google's operations have scaled orders of magnitude beyond anything the system had been designed to handle. [(The Register)](http://www.theregister.co.uk/2009/08/12/google_file_system_part_deux/)
+
+----
+# GFS
+![width:900px](img/GoogleFileSystemGFS.svg)
 
 ----
 | GFS | Colossus |
@@ -63,8 +78,8 @@ The [Google File System](https://en.wikipedia.org/wiki/Google_File_System) was a
 Point: good designers iterate and improve. One of the nice things about software is we can replace pieces of it as we go.
 
 ----
-![changing a wheel at speed](img/saudi-tire.jpg)
-
+<!-- ![changing a wheel at speed](img/saudi-tire.jpg) -->
+# Tradeoffs
 We iterate, but we also do tradeoffs. No one system can satisfy every quality attribute scenario. Some common tradeoffs:
 
 * immediate functionality over long-term quality (sort of a meta tradeoff, this can lead to technical debt)
@@ -84,23 +99,14 @@ Good design practice involves three aspects.
 2. Experience. Design skill is usually acquired through practice (and failure!). 
 3. Design toolkit. Good design knows the ways other people have approached the problem, knows the relevant academic literature (e.g. the Papers We Love community), and pattern and style repositories. 
 
-![arch-cartoon from Design SA book](img/add3.jpg)
+----
+![alt="arch-cartoon from Design SA book", width:900px](img/add3.jpg)
 
 ----
 
 The book introduces an approach, Attribute-Driven Design, that tries to provide a framework for design process, that will lead to good outcomes. We'll walk through that today. The framework will work from our quality attributes and satisfy the QAS as a essential part of designing/redesigning a system.
 
 ![add2](img/add2-flow.png)
-
-----
-# Exercise
- You have been tasked with designing an architecture that supports functionality of this kind: 
- 
-> A unified management station for the building automation domain that automatically monitors and/or controls the internal functions of buildings, such as heating, ventilation, air conditioning, lighting, access, and safety.
-
-What next? Get together in teams and figure out your initial set of actions as the lead architecture team.
-
-(after R. Sangwan, et al. 2007. “Integrating a Software Architecture-Centric Method into Object-Oriented Analysis and Design.”  Journal of Systems and Software.)
 
 
 ----
@@ -132,6 +138,7 @@ This is the heart of the challenge (text, p. 321). Given the test - the ASR/QAS 
 At the end of this step, the architectural design consists of major types of elements that will appear in the architecture, the types of relationships between them, and the instantiation of the software element types. In other words, one outcome will look something like your module/C&C view of the system in the documentation. This is not accidental; design and documentation are mirrors of one another.
 
 ----
+# Steps in ADD
 1. Identify design concerns.
 2. Create a list of alternative patterns.
 3. Select patterns for satisfying the candidate architectural drivers.
@@ -144,6 +151,7 @@ At the end of this step, the architectural design consists of major types of ele
 
 ![design concerns](img/add-designconcerns.png) 
 
+----
 We then select designs that address the concerns. One way to do this is with design patterns and architecture tactics. Design patterns were covered in SENG330/350. Architecture tactics are similar, but focus on the solution to a particular quality attribute. For example, to handle *Performance*, we need to *Manage Resources*. Some tactics to do this include *using concurrency*, using *multiple copies of the data*, and *bounding queue sizes*
 
 You can find more tactics in the book. Most of the book covers architecture tactics. 
