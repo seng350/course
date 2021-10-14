@@ -20,17 +20,18 @@ See the schedule on Brightspace for quizzes and project milestones. All submissi
 | 8 | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
 For module 7, readings are 
-Prologue
-Chapter 3, Monolithic
-Chapter 4, Cookbook
-Chapter 7, Infinite Mirror
-Chapter 16, Introspective
-Chapter 17, Reflective
-Chapter 18, Aspects
-Chapter 25, Persistent Tables
-Chapter 26, Spreadsheet
-Chapter 27, Lazy Rivers
-Chapter 28, Actors
+
+* Prologue
+* Chapter 3, Monolithic
+* Chapter 4, Cookbook
+* Chapter 7, Infinite Mirror
+* Chapter 16, Introspective
+* Chapter 17, Reflective
+* Chapter 18, Aspects
+* Chapter 25, Persistent Tables
+* Chapter 26, Spreadsheet
+* Chapter 27, Lazy Rivers
+* Chapter 28, Actors
 
 We will also cover these specific architecture tactics if time permits.
 | Module | Topics | Other Resources | Readings  |
