@@ -1,5 +1,7 @@
-# SENG350 -  OO Principles
-Neil Ernst
+---
+Title: SENG350 -  OO Principles
+Author: Neil Ernst
+marp: true
 <!-- page_number: true -->
 <!-- footer: (c) 2019 Neil Ernst  -->
 
@@ -7,26 +9,30 @@ Neil Ernst
 
 # Overview/Learning Objectives
 * understand the importance of design
-* introduce basic principles in OO design
+* introduce basic principles in design
 
 
 > A good design principle should help generate ideas and enable you to think through design implications. 
-> — Rebecca Wirfs-Brock
+> —Rebecca Wirfs-Brock
+
 ---
 
 # Design for Modularity
-<table>  <col width="600">
 
-<tr><td>Decomposable - <font size="5pt">can be broken down into modules to reduce complexity and allow teamwork</font></td> <td rowspan=5> <img width="225in" src="img/mod.png"></tr>
-<tr><td>Composable  - <font size="5pt">"Having divided to conquer, we must reunite to rule [M. Jackson]."</font></td></tr>
-<tr><td>Understandable - <font size="5pt">one module can be examined, reasoned about, developed, etc. in isolation</font></td></tr>
-<tr><td>Continuity - <font size="5pt">a small change in the requirements should affect a small number of modules</font></td></tr>
-<tr><td>Isolation - <font size="5pt">an error in one module should be as contained as possible</font></td></tr>
-</table>
-<center><em><font size="4pt">taken from UW CSE331 - Hal Perkins</font></em></center>
+| Principle |
+|---|
+| **Decomposable** - can be broken down into modules to reduce complexity and allow teamwork | 
+|**Composable** - "Having divided to conquer, we must reunite to rule [M. Jackson]." |
+**Understandable** - one module can be examined, reasoned about, developed, etc. in isolation |
+| **Continuity** - a small change in the requirements should affect a small number of modules|
+| **Isolation** - an error in one module should be as contained as possible| 
+
+----
+![width:300px](img/mod.png)
+
+taken from UW CSE331 - Hal Perkins
 
 ---
-
 
 # Cohesion and Coupling
 * **Cohesion** is internal to an object, describing its independence. High cohesion implies doing one thing well. <!-- Employer does not "Pay" Employee -->
@@ -49,116 +55,6 @@ Neil Ernst
 * Name classes to describe *effects* and *purpose*, not implementation
 
 ---
-# A DDD example
-![](img/paint.png)
-
-<!--
-@startuml
-class Paint {
-  double v
-  int r
-  int y
-  int b
-+paint(Paint)
-}
-@enduml -->
-
-<code>
-public void paint (Paint paint) {
-
- &nbsp;  v = v + paint.getV(); //after mixing, sum volume
- &nbsp;  //complex color mixing logic 
- &nbsp;  // assign new r, b, y values
-  }</code>
-  
----
-# Unhelpful, written for the implementer
-<code>
-
-public void testPaint() {
-&nbsp;   Paint yellow = new Paint(100.0, 0, 50, 0);
-&nbsp;   Paint blue = new Paint(100.0, 0,0,50);
-&nbsp;   yellow.paint(blue);
-&nbsp;   //should get green with 200.0
-}
-</code>
-  
----
-## Better - write from interface user point of view
-<code>
-
-public void betterTestPaint() {
-&nbsp;   Paint ourPaint = new Paint(100.0, 0, 50, 0);
-&nbsp;   Paint blue = new Paint(100.0, 0,0,50);
-&nbsp;   ourPaint.mixin(blue);
-&nbsp;   //should get green with 200.0
-&nbsp;   assertEquals(200.0, ourPaint.getVolume(), 0.01);
-}
-</code>
-
----
-# Improved class naming
-<!-- @startuml
-class Paint {
-  double volume
-  int red
-  int yellow
-  int blue
-+mixin(Paint)
-}
-@enduml
--->
-![](img/paint.png) =====> ![](img/betterpaint.png)
-
----
-<!-- 
-@startuml
-class Paint {
-  double volume
-
-+mixin(Paint)
-}
-class PigmentColor {
-  int red
-  int yellow
-  int blue
-}
-PigmentColor <- Paint
-@enduml
--->
-![](img/paintpigment.png)
-
----
-# One more refactoring
-<!--
-@startuml
-class Paint {
-  double volume
-
-+mixin(Paint)
-}
-class PigmentColor <<value>> {
-&nbsp;   int red
-&nbsp;   int yellow
-&nbsp;   int blue
-mixedWith(PigmentColor, double): PigmentColor
-}
-PigmentColor <- Paint
-@enduml
--->
-![](img/onemorepigment.png)
-<code>
-//in Paint 
-public void mixIn(Paint other) {
-&nbsp; volume = volume + other.getVolume();
-&nbsp; double ratio = other.getVolume()
-&nbsp; pigmentColor = pigmentColor.mixedWith(other.pigmentColor(), ratio);
-}
-in PigmentColor
-&nbsp; // many lines of color-mixing logic
-</code>
-
----
 # Naming
 >  For example, in the HotDraw drawing framework, my first name for an object in a drawing was **DrawingObject**. Ward Cunningham came along with the typography metaphor: a drawing is like a printed, laid-out page. Graphical items on a page are figures, so the class became Figure. In the context of the metaphor, **Figure** is simultaneously shorter, richer, and more precise than DrawingObject."
 
@@ -171,9 +67,8 @@ Rate of change:
 
 "Empathy in naming" -> "if I searched for this function, what would I want it called?"
    
-<font size="4pt"> https://www.facebook.com/notes/kent-beck/naming-from-the-outside-in/464270190272517/</font>
+https://www.facebook.com/notes/kent-beck/naming-from-the-outside-in/464270190272517/
 
----
 <!--
 # Subclasses 
 Need to communicate what class they are like and how they are different. 
@@ -227,7 +122,7 @@ StaffMember -- (Produce Report)
 
 
 ---
-# Key OO Principles - Overview
+# Key Principles - Overview
 1. Cohesion/Coupling
 3. SOLID
 	1. Single Responsibility
@@ -246,7 +141,7 @@ StaffMember -- (Produce Report)
 # Cohesion and Coupling
 * **Cohesion** is internal to an object, describing its independence. High cohesion implies doing one thing well. <!-- Employer does not "Pay" Employee -->
 * **Coupling** is the amount of dependency *between* components. High coupling makes the preceding modularity approaches harder. 
-* Modular systems have objects with high cohesion and low coupling
+* Modular systems generally objects with high cohesion and low coupling
 
 <!--
 ---
@@ -266,7 +161,8 @@ Drawbacks are comprehensibility and potential for overuse
 ---
 
 # Single Responsibility
-* CRC diagram for MSG case -> "A responsibility is anything that a class knows or does"
+* CRC diagrams - [Class Responsibility Collaborator](http://agilemodeling.com/artifacts/crcModel.htm)
+* CRC diagram -> "A responsibility is anything that a class knows or does"
 * a class should have a single purpose, collecting together a set of **related** sub-responsibilities
 * "class only has a single reason to change"
 * a Rectangle that calculates *area* and *draws itself*
@@ -280,7 +176,7 @@ Drawbacks are comprehensibility and potential for overuse
 
 Ask: if a new object of type X is needed, where do you make changes?
 * minimize changes to existing objects
-* contrast: lengthy <code>switch</code> statements (or using <code>instanceof</code>)
+* contrast: lengthy ```switch``` statements (or using ```instanceof```)
 
 **Encapsulation**: keep data and operations together. Ensure internal details don't have external effects (eg. member variables)
 * Does inheritance violate this?
@@ -313,41 +209,46 @@ Separate configuration from use, especially in the use of 3rd party libraries.
 Frameworks like [Guice](https://github.com/google/guice/wiki/Motivation), [Spring](https://www.mkyong.com/spring/spring-dependency-injection-di/) allow for "injection" of the dependencies 
 * e.g., at runtime, allow new instances of Report
 * especially useful for testing (code no longer cares if it gets a mock or the real object)
-<code style="font-size:14pt"> 
+
+----
+```
 public class RealBillingService implements BillingService {
  &nbsp; public Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) {
-    &nbsp;&nbsp;CreditCardProcessor processor = new PaypalCreditCardProcessor();
-    &nbsp;&nbsp;TransactionLog transactionLog = new DatabaseTransactionLog();
- </code>
+  
+    CreditCardProcessor processor = new PaypalCreditCardProcessor();
+  
+    TransactionLog transactionLog = new DatabaseTransactionLog();
+ ```
  
 ---
-## DI - 2
-<code style="font-size:14pt">
+<!-- ## DI - 2
+
+```
 
 public class BillingModule extends AbstractModule {
 &nbsp;@Override 
 &nbsp;protected void configure() {
-&nbsp;&nbsp;bind(CreditCardProcessor.class).to(PaypalCreditCardProcessor.class);
-&nbsp;&nbsp; // more bindings
+    bind(CreditCardProcessor.class).to(PaypalCreditCardProcessor.class);
+   // more bindings
 }
 ...
 public class RealBillingService implements BillingService {
-&nbsp;&nbsp;@Inject
-&nbsp;&nbsp;public RealBillingService(CreditCardProcessor processor, TransactionLog transactionLog) {
-&nbsp;&nbsp; this.processor = processor;
-&nbsp;&nbsp;this.transactionLog = transactionLog;
+    @Inject
+  public RealBillingService(CreditCardProcessor processor, TransactionLog transactionLog) {
+     this.processor = processor;
+  this.transactionLog = transactionLog;
   }
-</code>
+``` -->
 
----
- 
-<!-- # Dynamic Dispatch -->
+
+<!--  
+<!-- # Dynamic Dispatch 
  
 # Refactoring
 refactor if there is a symptom, not just for the sake of it. (somewhat violated in learning refactoring!)
-<!-- Movie example -->
+<!-- Movie example 
 
 ---
 # Exercise
 Critique and refactor/redesign the code.
-> A program to calculate and print a statement of a customer's charges at a video store. The program is told which movies a customer rented and for how long. It then calculates the charges, which depend on how long the movie is rented, and identifies the type movie. There are three kinds of movies: regular, children's, and new releases. In addition to calculating charges, the statement also computes frequent renter points, which vary depending on whether the film is a new release.
+> A program to calculate and print a statement of a customer's charges at a video store. The program is told which movies a customer rented and for how long. It then calculates the charges, which depend on how long the movie is rented, and identifies the type movie. There are three kinds of movies: regular, children's, and new releases. In addition to calculating charges, the statement also computes frequent renter points, which vary depending on whether the film is a new release. -->

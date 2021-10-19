@@ -133,7 +133,7 @@ We can look at **impact analysis** for our module structures. How much time will
 
 ----
 ## Design Solution
-This is the heart of the challenge (text, p. 321). Given the test - the ASR/QAS you are focused on - you, the designer, choose a way to satisfy that. This is where past experience and knowledge of relevant patterns is important. 
+This is the heart of the challenge. Given the test - the ASR/QAS you are focused on - you, the designer, choose a way to satisfy that. This is where past experience and knowledge of relevant patterns is important. 
 
 At the end of this step, the architectural design consists of major types of elements that will appear in the architecture, the types of relationships between them, and the instantiation of the software element types. In other words, one outcome will look something like your module/C&C view of the system in the documentation. This is not accidental; design and documentation are mirrors of one another.
 
@@ -152,7 +152,7 @@ At the end of this step, the architectural design consists of major types of ele
 ![design concerns](img/add-designconcerns.png) 
 
 ----
-We then select designs that address the concerns. One way to do this is with design patterns and architecture tactics. Design patterns were covered in SENG330/350. Architecture tactics are similar, but focus on the solution to a particular quality attribute. For example, to handle *Performance*, we need to *Manage Resources*. Some tactics to do this include *using concurrency*, using *multiple copies of the data*, and *bounding queue sizes*
+We then select designs that address the concerns. One way to do this is with design patterns and architecture tactics. Architecture tactics are similar, but focus on the solution to a particular quality attribute. For example, to handle *Performance*, we need to *Manage Resources*. Some tactics to do this include *using concurrency*, using *multiple copies of the data*, and *bounding queue sizes*
 
 You can find more tactics in the book. Most of the book covers architecture tactics. 
 
@@ -170,8 +170,8 @@ Our architecture driver is "support i18n".
 
 <!--Driver #2: International Language Support
 There are three design concerns related to modifiability:
- Increase cohesion: changing the user interface to deal with a new    language and culture
- Reduce coupling: minimizing the number of modules affected    as a result of changing the user interface
+ Increase cohesion: changing the user interface to deal with a new  language and culture
+ Reduce coupling: minimizing the number of modules affected    as a result of changing the user interface
   Defer binding: delaying the time when the language is chosen
 -->
 
