@@ -7,10 +7,10 @@ date: Oct 2021
 
 # Lab: Architectural Styles
 
-In your group, create a C&C view for a near-field communication payment terminal like Square offers. The terminal connects to a point of sale (POS) system which manages the business's inventory. It handles communication with the customer's phone or card (using passive RFID chip in the card/phone), communicates with an authorization agent (e.g., Royal Bank), and ensures the PoS system is told of the sale. 
+In your group, create a C&C view for [a near-field communication payment terminal like Square offers](https://squareup.com/ca/en/townsquare/nfc). The card reader connects to a point of sale (POS) system which manages the business's inventory, records sales, etc. It handles communication with the customer's phone or card (using passive RFID chip in the card/phone), communicates with an authorization agent (e.g., Royal Bank), and ensures the PoS system is told of the sale. 
 
 1. What architectural style is best suited to this? Pick one of the C&C styles from the notes, see the book chapter 22, or the comprehensive catalog in [Documenting Software Architectures](https://learning-oreilly-com.ezproxy.library.uvic.ca/library/view/documenting-software-architectures/9780132488617/ch04.html), chapter 3 and 4. 
-2. Document the style as a diagram on a tablet drawing program or pencil and paper. 
+2. Document the style as a diagram on a tablet drawing program, Draw.io, or pencil and paper. 
 3. Make sure your diagram has a legend!  
 4. Make sure your diagram explains all the elements involved. 
 5. Add a short description for each of th elements (nodes) in your diagram. 
