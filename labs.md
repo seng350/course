@@ -10,7 +10,7 @@ The labs are intended to give you and your team a broad overview of the relevant
 | 4 |[Static Analysis: Browsing source code in an IDE](labs/sa1.md) |
 | 5 | Group work - free session |
 |6 | [SA: Call graph analysis](labs/sa-cga.md) and [source visualization](https://octo.github.com/projects/repo-visualization) |
-| 7 |Debugging and dynamic analysis |
+| 7 | [C&C view workshop](labs/c-and-c.md) |
 | 8 | Group work - free session |
 | 9 | Reverse engineering and model generation - diagram tools. |
 | 10 | SA: Code analysis tools |
