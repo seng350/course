@@ -171,6 +171,7 @@ Drawbacks are comprehensibility and potential for overuse
 ---
 <!-- 3rd lecture got to here -->
 # Open Closed Principle
+(we skipped this one)
 "Objects are open for **extension** but closed for **modification**."
 * use inheritance and abstraction
 
@@ -213,21 +214,24 @@ Frameworks like [Guice](https://github.com/google/guice/wiki/Motivation), [Sprin
 ----
 ```
 public class RealBillingService implements BillingService {
- &nbsp; public Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) {
+  
+  public Receipt chargeOrder(PizzaOrder order, CreditCard creditCard) {
   
     CreditCardProcessor processor = new PaypalCreditCardProcessor();
   
     TransactionLog transactionLog = new DatabaseTransactionLog();
+  }
+}
  ```
  
 ---
-<!-- ## DI - 2
+## DI - 2
 
 ```
 
 public class BillingModule extends AbstractModule {
-&nbsp;@Override 
-&nbsp;protected void configure() {
+@Override 
+protected void configure() {
     bind(CreditCardProcessor.class).to(PaypalCreditCardProcessor.class);
    // more bindings
 }
@@ -237,8 +241,8 @@ public class RealBillingService implements BillingService {
   public RealBillingService(CreditCardProcessor processor, TransactionLog transactionLog) {
      this.processor = processor;
   this.transactionLog = transactionLog;
-  }
-``` -->
+}
+``` 
 
 
 <!--  
