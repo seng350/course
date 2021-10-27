@@ -13,7 +13,8 @@ paginate: true
 * concept of reusable solutions in context
 * a simple single pattern as an example
 * difference between design patterns and architecture styles
-
+* the Singleton pattern
+  
 ---
 
 # What and Why
@@ -21,6 +22,8 @@ paginate: true
 Designing software is hard, designing **reusable** and **flexible** software is even harder
 
 **Design Patterns** -- an attempt to build on others’ experience in solving recurrent problems
+
+Contrast with architectural style: implications for many modules
 
 ---
 
@@ -44,7 +47,12 @@ Has four essential elements:
 * **consequences** -- the results and tradeoffs of applying the pattern (e.g. impact on QA like system’s flexibility, extensibility, portability).
 
 ---
+# Purposes of Patterns
+1. hide details of element **creation** from clients
+2. connect objects to minimize coupling / depedency
+3. encapsulate behaviors that may change at runtime / for a given context
 
+----
 # Example Pattern: The Singleton Pattern
 
 * It is perhaps the simplest of all the patterns...
@@ -121,6 +129,8 @@ That’s just as easy as accessing a global variable, but we get benefits like l
 * Singleton consequences:
   * Controlled access to sole instance
   * Allows lazy allocation (not allocated until / unless needed)
+
+Any potential problems with this approach? 
 
 ---
 
@@ -201,14 +211,18 @@ In software engineering, a design pattern is a general repeatable solution to a 
 
 # Real World Patterns
 
-<table colwidth="500px"><tr>
-<td>Problem: prevent sewer gas backflowing into rooms</td>
-<td>Solution: P-trap</td>
-<td><image src="img/p-trap.png"></image></td></tr>
-<tr>
-<td>Problem: crossing highways</td>
-<td>Solution: cloverleaf</td>
-<td><image src="img/clover.png"/></td></tr></table>
+## Problem: prevent sewer gas backflowing into rooms
+
+Solution: P-trap
+![](img/p-trap.png)
+
+----
+
+## Problem: crossing highways
+
+Solution: cloverleaf
+
+![](img/clover.png)
 
 
 ---
@@ -217,25 +231,26 @@ In software engineering, a design pattern is a general repeatable solution to a 
 
 **Name**: Observer
 **Intent**: Ensure that, when an object changes state, all its dependents are notified and updated automatically.
-**Participants & Structure**: ![](img/observer.png)
+**Participants & Structure**: 
+![](img/observer.png)
 
 ---
 
 # Observer Updates
 
-![](img/obs-ex1.png)
+![width:800px](img/obs-ex1.png)
 
 ---
 
 # Observer Updates
 
-![](img/obs-ex2.png)
+![width:800px](img/obs-ex2.png)
 
 ---
 
 # Observer Updates
 
-![](img/obs-ex3.png)
+![width:800px](img/obs-ex3.png)
 
 ---
 
@@ -248,13 +263,13 @@ I want the display to update when the size of a window is changed
 I need the schedule view to update when the database is changed
 	
 
-	Design patterns are reusable!
+**Design patterns are reusable!**
 
 ---
 
 # Exercise
 
-In your project teams, apply Observer to one of your design problems.
+TPS: Come up with a real-world software system that seems to be using Observer.
 
 ---
 
@@ -365,11 +380,23 @@ Problem context:
 
 # Problems?
 
-See example MazeGame.java
-We can only use this method to create a maze that uses a Room and a Door.  What if we want to create a different type of maze?
+See example [MazeGame.java](img/MazeGame2.java)
+* We can only use this method to create a maze that uses a Room and a Door.  What if we want to create a different type of maze?
+* The layout is hard-wired
+* Completely rewrite MazeGame each time (and introduce bugs)
 
 ---
+# Bug Rates (McConnell)
+1. **Industry Average**: "about 15 - 50 errors per 1000 lines of delivered
+code." 
+2. **Microsoft** Applications 1992 "about 10 - 20 defects per 1000 lines of code
+during in-house testing, and 0.5 defect per KLOC in released product "
+3. **Cleanroom**/Code inspection: 3 defects per 1000 lines of code during
+in-house testing and 0.1 defect per 1000 lines of code in released product
+3. **Space-shuttle** software - 0 defects in 500 KLOC using a system of formal development methods, peer reviews, and statistical
+testing.
 
+----
 # Abstract Factory
 
 Sample Problem: 
@@ -379,7 +406,7 @@ Solution 1:
 ```// TODO: Change next line when we know what is a room
 Room r = new TempRoom(); 
 // Note: TempRoom is a subclass of Room```
-
+```
 **Problem? (any design principle violated?)**
 
 ---
@@ -387,23 +414,21 @@ Room r = new TempRoom();
 # Abstract Factory
 
 Solution 2:
+```
 // myRoomFactory is an abstract factory!
-```Room r = myRoomFactory.createRoom(); ```
-
+Room r = myRoomFactory.createRoom(); 
+```
 Advantage:
 Just set myRoomFactory once, then the good room will be created!
 
 Remark:
-Setting myRoomFactory is Dependency Injection: the class which is dependant on myRoomFactory doesn’t retrieve it, but waits until someone else injects it.
+Setting `myRoomFactory` is Dependency Injection: the class which is dependant on myRoomFactory doesn’t retrieve it, but waits until someone else injects it.
 
 ---
 
 # Code Walkthru
 
 ---
-
-# 
-
 # AF Tradeoffs
 
 '+' control creation of costly concrete classes
@@ -416,40 +441,14 @@ Setting myRoomFactory is Dependency Injection: the class which is dependant on m
 
 **Name**: Abstract Factory
 **Intent**: Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
-**Participants & Structure**: ![](img/af-class.png)
+**Participants & Structure**: 
+
+![](img/af-class.png)
 
 ---
-
-# Midterm Summary
-
-(if you have questions please see me in my office - after class or until 4.30)
-
----
-
-# Project approach
-
-"vertical slices"
-![](img/vert-slice-wiki.png)
-<font size="3pt"> by Benjamin F Clay - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=27808423</font>
-
----
-
-"primitive whole"
-![](img/kerievsky-idd.png) 
-
----
-
-# Code review at NASA
-
-![](img/nasa-code.jpg)
-
-see http://spinroot.com/cobra/
-
----
-
 # Practical Design Patterns
 
-[SO question on Design Patterns in Java libraries](https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries/)
+[Examples of Design Patterns in Java libraries](https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries/)
 
 ---
 
@@ -485,21 +484,22 @@ Participants & Structure:
 # Decorator explained
 
 ![](img/hfdp-dec.png)
-<font size="3pt" style="text-align: center">src: Head First Design Patterns</font>
+src: Head First Design Patterns
 
 ---
 
-# Decorator code
+# Decorator JDK code
 
----
 
-# Java Library Example
+<!-- # Java Library Example
 
-<!-- file input - buffering, unarchive, encode etc -->
+<!-- file input - buffering, unarchive, encode etc 
 
----
+--- -->
 
-```BufferedInputStream bis = new BufferedInputStream(new FileInputStream(new File("a.txt")));```
+```
+BufferedInputStream bis = new BufferedInputStream(new FileInputStream(new File("a.txt")));
+```
 
 ---
 
@@ -511,7 +511,7 @@ Chain of Responsibility
 Command
 Interpreter
 Iterator
-Memento
+Memento$$
 State
 Strategy
 Template Method
