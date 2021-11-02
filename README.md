@@ -16,10 +16,11 @@ See the schedule on Brightspace for quizzes and project milestones. All submissi
 | 5 | [Architecture Views & Styles](https://github.com/SENG350/course/blob/master/lectures/5-modules.md) • [Views on Architecture - C&C](https://github.com/SENG350/course/blob/master/lectures/6-cc.md) |[SEI view example](https://wiki.sei.cmu.edu/sad/index.php/OPC_Module_Uses_View)  | text chapter 22.1-4 |
 | 6 | [Architecture and Design](https://github.com/SENG350/course/blob/master/lectures/7-design.md) • [OO Principles](lectures/ooprinciples.md) | [What is Architectural Design](http://www.informit.com/articles/article.aspx?p=2738304&seqNum=2) | [HomeAssistant sections 0-5](home_assistant_arch.pdf) • text chapter 20  |
 | 7 | [Design Patterns](lectures/patterns.md) | [Head-first design patterns](https://www-oreilly-com.ezproxy.library.uvic.ca/library/view/head-first-design/9781492077992/) | [DesignPatterns paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.44.9717) • source code |
-| 7 | [Programming Styles]() | | Lopes ["Exercises in Programming Style"](https://learning-oreilly-com.ezproxy.library.uvic.ca/library/view/exercises-in-programming/9781482227376/cover.xhtml) (Uvic access required)|
-| 8 | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
+| A4 | [Architecture Tactics - Performance](lectures/performance.md) |  | Text chapter 9 |
+| 8 | [Programming Styles](lectures/prog-styles.md) | | Lopes ["Exercises in Programming Style"](https://learning-oreilly-com.ezproxy.library.uvic.ca/library/view/exercises-in-programming/9781482227376/cover.xhtml) (Uvic access required)|
+| A5 | [Architecture Tactics - Safety](lectures/safety.md) || Text ch. 10 |
 
-For module 7, readings are 
+For the Programming Styles lectures, readings are 
 
 * Prologue
 * Chapter 3, Monolithic
@@ -39,8 +40,7 @@ We will also cover these specific architecture tactics if time permits.
 | A1 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 4, quality attribute chapters 5 |
 | A2 | [Architecture Tactics - Modifiability](lectures/modifiability.md) | [Ambler CRC](http://www.agilemodeling.com/artifacts/crcModel.htm) | text chapter 8 |
 | A3 | [Architecture Tactics - Privacy](lectures/privacy.md) | [Privacy Patterns](https://privacypatterns.org/) | none |
-| A4 | [Architecture Tactics - Performance](lectures/performance.md) |  | Text chapter 9 |
-| A5 | [Architecture Tactics - Safety](lectures/safety.md) || Text ch. 10 |
+| 8 | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
 
 
 ### Lab Schedule
