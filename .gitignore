@@ -4,3 +4,7 @@
 .idea
 *.numbers
 *.xlsx
+lectures/img/node_modules/
+marks/
+.DS_Store
+*.icloud

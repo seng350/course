@@ -151,15 +151,26 @@ Compare with Monolithic architecture
 ----
 
 ## Chapter 25, Persistent Tables
+* constraint is to persist data beyond just this use
+* do not optimize data storage for a single use (relational)
+* very common in the shared-data style; this programming style is essentially an architecture style in one file.
+  
 ----
-
-## Chapter 26, Spreadsheet
-----
-
 ## Chapter 27, Lazy Rivers
+- we don't know how much data we will be reading; or, we are reading from input larger than memory
+- make use of Python's `yield` to return to where the fn left off
+- contrast with a Pipeline where data is passed entirely 
+- Systems: quite common in event-based systems and the Command Query Responsibility Segregation style
+  
 ----
 
 ## Chapter 28, Actors
+- program elements are essentially inboxes that send/receive messages
+- actors have independent threads of execution
+- Python lacks native support - hence the extra code prefixed `_`
+- Systems: big part of distributed systems eg Erlang or [Elixir](https://home.cs.colorado.edu/~kena/classes/5828/f14/lectures/16-actors.pdf) which is built around Actors
+
+
 ----
 # Summary
 * Many choices about how to implement a solution
