@@ -1,29 +1,39 @@
-----
-Title: Availability 
-Author: Neil Ernst
-----
-
+---
+title: Availability 
+date: Nov 2021
+author: Neil Ernst
+marp: true
+paginate: true
+---
+<!-- 
 Structure for the next few weeks:
 
 1. Introduce the tactic category. Discuss scenarios and measures.
 2. Discuss tactics to solve the QA problem. Introduce common libraries/services.
-3. Examine how Home Assistant implements some of these tactics.
-
+3. Examine how Home Assistant implements some of these tactics. -->
+<!-- 
 # Tactics
 
-Architectural tactics are design approaches to achieve a required quality attribute (p. 70).  Tactics ignore tradeoffs. They focus on the solution, and the designer needs to balance tradeoffs. Unlike patterns, tactics do not focus on tradeoffs, and tend to be more abstract, allowing for easier customization, regardless of the system. Thus, tactics need to be refined for a particular system, either by explaining how to implement the tactic or what library to rely on. As we will see, a number of tactics are either subsumed in common language functions, or supported by outsourcing the quality attribute to third parties. 
+Architectural tactics are design approaches to achieve a required quality attribute (p. 70).  Tactics ignore tradeoffs. They focus on the solution, and the designer needs to balance tradeoffs. Unlike patterns, tactics do not focus on tradeoffs, and tend to be more abstract, allowing for easier customization, regardless of the system. Thus, tactics need to be refined for a particular system, either by explaining how to implement the tactic or what library to rely on. As we will see, a number of tactics are either subsumed in common language functions, or supported by outsourcing the quality attribute to third parties.  -->
 
-# Availability (ch 5)
+# Availability (ch 4)
+
+----
+
+## Availability
 
 Availability is about design to 
-> ``enable a system to endure system faults such that a service being delivered by a system remains compliant with its spec". 
+> ``enable a system to endure system **faults** such that a service being delivered by a system remains compliant with its spec". 
 
 A fault is a problem that impairs but does not prevent the software from working. Examples:
 
 - node (machine/instance) loss in a distributed system
 - service loss in a micro service
 
+----
 ![example](/Users/nernst/Documents/teaching/SENG350/course/lectures/img/nserc-avail.png)
+
+----
 
 Availability in the distributed system sense refers to nodes - eg. an API endpoint or IP address for a server - being able to handle requests when needed. In particular, we would like to minimize outage time. 
 

@@ -18,7 +18,7 @@ See the schedule on Brightspace for quizzes and project milestones. All submissi
 | 7 | [Design Patterns](lectures/patterns.md) | [Head-first design patterns](https://www-oreilly-com.ezproxy.library.uvic.ca/library/view/head-first-design/9781492077992/) | [DesignPatterns paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.44.9717) • source code |
 | A4 | [Architecture Tactics - Performance](lectures/performance.md) |  | Text chapter 9 |
 | 8 | [Programming Styles](lectures/prog-styles.md) | | Lopes ["Exercises in Programming Style"](https://learning-oreilly-com.ezproxy.library.uvic.ca/library/view/exercises-in-programming/9781482227376/cover.xhtml) (Uvic access required)|
-| A5 | [Architecture Tactics - Safety](lectures/safety.md) || Text ch. 10 |
+| A1 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 4, quality attribute chapters 5 |
 
 For the Programming Styles lectures, readings are 
 
@@ -37,7 +37,7 @@ For the Programming Styles lectures, readings are
 We will also cover these specific architecture tactics if time permits.
 | Module | Topics | Other Resources | Readings  |
 |---| --------------------------------------------------------- | --------- | ----------------|
-| A1 | [Architecture Tactics-Availability](lectures/avail.md) | | text chapter 4, quality attribute chapters 5 |
+| A5 | [Architecture Tactics - Safety](lectures/safety.md) || Text ch. 10 |
 | A2 | [Architecture Tactics - Modifiability](lectures/modifiability.md) | [Ambler CRC](http://www.agilemodeling.com/artifacts/crcModel.htm) | text chapter 8 |
 | A3 | [Architecture Tactics - Privacy](lectures/privacy.md) | [Privacy Patterns](https://privacypatterns.org/) | none |
 | 8 | [Architecture analysis](https://github.com/SENG350/course/blob/master/lectures/12-analysis.md) | | text chapter 21  |
